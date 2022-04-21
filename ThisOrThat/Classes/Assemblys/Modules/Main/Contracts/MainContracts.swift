@@ -26,6 +26,9 @@ protocol MainViewInput: AnyObject {
 // View Output
 protocol MainViewOutput: AnyObject {
     func viewDidLoad()
+    func startbuttonPressed()
+    func catalogButtonPressed()
+    func rulesButtonPressed()
 }
 
 // Interactor
@@ -36,4 +39,7 @@ protocol MainInteractorInput {
 // Router
 protocol MainRouterProtocol: AlertRoutable {
 
+    func showGameStartView()
+    func showCatalogView()
+    func showRulesView()
 }

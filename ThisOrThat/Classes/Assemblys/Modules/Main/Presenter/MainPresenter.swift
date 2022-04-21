@@ -26,6 +26,17 @@ extension MainPresenter: MainModuleInput {
 // MARK: View Output
 extension MainPresenter: MainViewOutput {
     func viewDidLoad() {
-        view?.set(title: "Main")
+    }
+    
+    func startbuttonPressed() {
+        router.showGameStartView()
+    }
+    
+    func catalogButtonPressed() {
+        router.showCatalogView()
+    }
+    
+    func rulesButtonPressed() {
+        router.showRulesView()
     }
 }

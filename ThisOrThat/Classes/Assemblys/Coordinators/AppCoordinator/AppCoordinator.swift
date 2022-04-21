@@ -41,6 +41,49 @@ extension AppCoordinator {
     }
 }
 
+
+// MARK: Game Flow
+
+extension AppCoordinator {
+    
+    func startGameFlow() {
+        let coordinator = container.resolve(GameStartCoordinatorAssembly.self).build()
+        addChild(coordinator)
+        coordinator.start()
+        self.router.present(coordinator)
+    }
+}
+
+
+// MARK: Catalog Flow
+
+extension AppCoordinator {
+    
+    func startCatalogFlow() {
+        let coordinator = container.resolve(CatalogCoordinatorAssembly.self).build()
+        addChild(coordinator)
+        coordinator.start()
+        self.router.present(coordinator)
+    }
+}
+
+
+// MARK: Rules Flow
+
+extension AppCoordinator {
+    
+    func startRulesFlow() {
+        let coordinator = container.resolve(RulesCoordinatorAssembly.self).build()
+        addChild(coordinator)
+        coordinator.start()
+        self.router.present(coordinator)
+    }
+}
+
+
+
+
+
 // MARK: Auth Flow
 extension AppCoordinator {
     func startAuthFlow() {
