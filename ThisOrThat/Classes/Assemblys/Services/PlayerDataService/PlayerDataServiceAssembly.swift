@@ -8,9 +8,9 @@
 
 import Foundation
 
-class StorageServiceAssembly: Assembly {
-    func build() -> StorageServiceType {
-        let service = StorageService()
+class PlayerDataServiceAssembly: Assembly {
+    func build() -> PlayerDataServiceType {
+        let service = PlayerDataService()
         return service
     }
 }

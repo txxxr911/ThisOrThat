@@ -16,10 +16,10 @@ class StartGameAssembly: Assembly {
         let view = StartGameViewController.controllerFromStoryboard("StartGame")
         
         // Services
-        let storageService = container.resolve(StorageServiceAssembly.self).build()
+        let playerDataService = container.resolve(PlayerDataServiceAssembly.self).build()
         
         // Interactor
-        let interactor = StartGameInteractor()
+        let interactor = StartGameInteractor(playerDataService: playerDataService)
         
         // Router
         let router = StartGameRouter(coordinator: coordinator)

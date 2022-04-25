@@ -26,15 +26,27 @@ protocol StartGameViewInput: class {
 // View Output
 protocol StartGameViewOutput: class {
     func viewDidLoad()
+    var items: [Player] { get }
+    func addPlayer()
+    func didRemoveItem(player: Player)
+    func changeSexButtonDidTap(player: Player)
     func startButtonPressed()
+    func didTapBackButton()
 }
 
 // Interactor
 protocol StartGameInteractorInput {
+    var items: [Player] { get }
+    func addPlayer()
+    func removePlayer(player: Player)
+    func changeSex(player: Player)
+    func save()
 }
 
 // Router
 protocol StartGameRouterProtocol: AlertRoutable {
  
-    func showGameProcessView()
+    func navigateBack()
+    func navigateToCatalog()
+    func navigateToMain()
 }

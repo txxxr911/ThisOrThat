@@ -9,6 +9,7 @@
 import Foundation
 
 class StartGamePresenter: BasePresenter<StartGameInteractorInput, StartGameRouterProtocol>, StartGameModuleOutput {
+    var items: [Player] { interactor.items }
     
     // MARK: - Weak properties
     weak var view: StartGameViewInput?
@@ -26,8 +27,37 @@ extension StartGamePresenter: StartGameModuleInput {
 
 // MARK: View Output
 extension StartGamePresenter: StartGameViewOutput {
+    func addPlayer() {
+        interactor.addPlayer()
+    }
+    
+    func didRemoveItem(player: Player) {
+        interactor.removePlayer(player: player)
+    }
+    
+    func changeSexButtonDidTap(player: Player) {
+        interactor.changeSex(player: player)
+    }
+    
+    func didTapBackButton() {
+        
+    }
+    
     func startButtonPressed() {
-        router.showGameProcessView()
+        do {
+            try validatePlayers()
+        }
+        
+        catch {
+            print(error)
+        }
+        interactor.save()
+        router.navigateToCatalog()
+        //router.showGameProcessView()
+    }
+    
+    func validatePlayers() throws {
+        if interactor.items.count < 2 { print("Небольшая компания у вас") }
     }
     
     func viewDidLoad() {

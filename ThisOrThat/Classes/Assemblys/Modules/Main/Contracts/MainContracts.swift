@@ -20,7 +20,6 @@ protocol MainModuleOutput: ModuleOutput {
 
 // View Input
 protocol MainViewInput: AnyObject {
-    func set(title: String)
 }
 
 // View Output
