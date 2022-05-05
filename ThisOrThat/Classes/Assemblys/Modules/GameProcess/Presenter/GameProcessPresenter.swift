@@ -36,8 +36,16 @@ extension GameProcessPresenter: GameProcessViewOutput {
     }
     
     func didTapNextStepButton() {
+        if (interactor.selectedPlayer == nil) {return}
+        else {
+            interactor.increaseScore()
+        }
         
     }
     
+    func didSelectedPlayer(by index: Int) {
+        let player = interactor.items[index]
+        interactor.setPlayer(selected: player)
+    }
     
 }

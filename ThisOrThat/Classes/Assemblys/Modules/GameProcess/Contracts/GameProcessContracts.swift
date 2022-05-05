@@ -27,11 +27,15 @@ protocol GameProcessViewInput: class {
 protocol GameProcessViewOutput: class {
     func viewDidLoad()
     var items: [Player] { get }
+    func didSelectedPlayer(by index: Int)
 }
 
 // Interactor
 protocol GameProcessInteractorInput {
     var items: [Player] {get set}
+    func increaseScore()
+    func setPlayer(selected player: Player)
+    var selectedPlayer: Player? {get}
 }
 
 // Router
