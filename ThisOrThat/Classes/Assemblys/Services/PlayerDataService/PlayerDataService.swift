@@ -28,6 +28,17 @@ class PlayerDataService: PlayerDataServiceType {
         }
     }
     
+    func increasePlayerScore(player: Player) {
+        let realmPlayer = realm.objects(PlayerRealm.self).first {$0.id == player.id}
+        guard let realmPlayer = realmPlayer else {return}
+        
+        try? realm.write{
+            realmPlayer.score = realmPlayer.score + 1
+            realm.add(realmPlayer, update: .all)
+        }
+        
+    }
+    
     
     
     let realm = try! Realm()

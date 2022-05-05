@@ -7,9 +7,14 @@
 //
 
 import Foundation
+import UIKit
 
 class MainInteractor: MainInteractorInput {
-
+    var cards: [UIView] = []
+    
+    func showCards() {
+        
+    }
 }
 
 // MARK: - Private

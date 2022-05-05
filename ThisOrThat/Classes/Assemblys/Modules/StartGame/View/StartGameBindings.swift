@@ -16,7 +16,7 @@ extension StartGameViewController {
         
     }
     func bindStartButton(){
-        startButton.addTarget(self, action: #selector(startbuttonPressed), for: .touchUpInside)
+startButton.addTarget(self, action: #selector(startbuttonPressed), for: .touchUpInside)
     }
     
     

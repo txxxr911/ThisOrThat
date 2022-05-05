@@ -20,4 +20,12 @@ enum Constants {
     enum Network {
         
     }
+    
+    enum Configs {
+        static let rateRoundLimit = 2
+        static let roundDuration = 60
+        static let demoCardsCount = 60
+        static let adsFrequancy = 3
+
+    }
 }

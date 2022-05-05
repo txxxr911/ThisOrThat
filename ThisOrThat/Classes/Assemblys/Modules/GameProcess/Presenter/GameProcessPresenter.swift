@@ -9,6 +9,7 @@
 import Foundation
 
 class GameProcessPresenter: BasePresenter<GameProcessInteractorInput, GameProcessRouterProtocol>, GameProcessModuleOutput {
+    var items: [Player] {interactor.items}
     
     // MARK: - Weak properties
     weak var view: GameProcessViewInput?
@@ -27,6 +28,16 @@ extension GameProcessPresenter: GameProcessModuleInput {
 // MARK: View Output
 extension GameProcessPresenter: GameProcessViewOutput {
     func viewDidLoad() {
-        view?.set(title: "GameProcess")
+        //view?.set(title: "GameProcess")
     }
+    
+    func didTapResultsButton() {
+        
+    }
+    
+    func didTapNextStepButton() {
+        
+    }
+    
+    
 }

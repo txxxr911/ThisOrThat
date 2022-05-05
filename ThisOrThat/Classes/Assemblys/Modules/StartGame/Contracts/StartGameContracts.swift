@@ -47,6 +47,7 @@ protocol StartGameInteractorInput {
 protocol StartGameRouterProtocol: AlertRoutable {
  
     func navigateBack()
-    func navigateToCatalog()
+    func navigateToCatalog(players: [Player])
     func navigateToMain()
+    func showGameProcessView(players: [Player])
 }

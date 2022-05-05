@@ -26,10 +26,12 @@ protocol GameProcessViewInput: class {
 // View Output
 protocol GameProcessViewOutput: class {
     func viewDidLoad()
+    var items: [Player] { get }
 }
 
 // Interactor
 protocol GameProcessInteractorInput {
+    var items: [Player] {get set}
 }
 
 // Router

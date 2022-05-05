@@ -11,12 +11,16 @@ import UIKit
 typealias GameProcessModule = Module<GameProcessModuleInput, GameProcessModuleOutput>
 
 class GameProcessAssembly: Assembly {
-    func build(coordinator: CoordinatorType) -> GameProcessModule {
+    func build(items: [Player], coordinator: CoordinatorType) -> GameProcessModule {
         // View
         let view = GameProcessViewController.controllerFromStoryboard("GameProcess")
         
+        // Services
+        let questionDataService = container.resolve(QuestionDataServiceAssembly.self).build()
+        let playerDataService = container.resolve(PlayerDataServiceAssembly.self).build()
+        
         // Interactor
-        let interactor = GameProcessInteractor()
+        let interactor = GameProcessInteractor(items: items, questionDataService: questionDataService, playersDataService: playerDataService)
         
         // Router
         let router = GameProcessRouter(coordinator: coordinator)

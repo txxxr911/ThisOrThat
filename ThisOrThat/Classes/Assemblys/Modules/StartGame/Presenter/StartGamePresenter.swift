@@ -52,7 +52,7 @@ extension StartGamePresenter: StartGameViewOutput {
             print(error)
         }
         interactor.save()
-        router.navigateToCatalog()
+        router.navigateToCatalog(players: items)
         //router.showGameProcessView()
     }
     

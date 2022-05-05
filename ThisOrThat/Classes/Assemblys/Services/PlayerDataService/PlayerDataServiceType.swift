@@ -13,6 +13,7 @@ protocol PlayerDataServiceType {
     func all() -> [Player]
     func add(players:[Player])
     func delete()
+    func increasePlayerScore(player: Player)
     //func incrementPlayerScore(player: Player, score: Int)
 
 }

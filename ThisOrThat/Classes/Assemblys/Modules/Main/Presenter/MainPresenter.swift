@@ -26,6 +26,7 @@ extension MainPresenter: MainModuleInput {
 // MARK: View Output
 extension MainPresenter: MainViewOutput {
     func viewDidLoad() {
+        
     }
     
     func startbuttonPressed() {

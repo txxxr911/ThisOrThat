@@ -13,8 +13,9 @@ class StartGameRouter: BaseModuleRouter, StartGameRouterProtocol {
         coordinator.router.popModule()
     }
     
-    func navigateToCatalog() {
-        let module = container.resolve(CatalogAssembly.self).build(coordinator: coordinator)
+    // tut pomenyat
+    func navigateToCatalog(players: [Player]) {
+        let module = container.resolve(GameProcessAssembly.self).build(items: players , coordinator: coordinator)
         coordinator.router.push(module)
     }
     
@@ -23,8 +24,8 @@ class StartGameRouter: BaseModuleRouter, StartGameRouterProtocol {
         coordinator.router.setRootModule(module, hideBar: true)
     }
     
-    func showGameProcessView() {
-        let module = self.container.resolve(GameProcessAssembly.self).build(coordinator: self.coordinator)
+    func showGameProcessView(players: [Player]) {
+        let module = self.container.resolve(GameProcessAssembly.self).build(items: players, coordinator: self.coordinator)
         coordinator.router.push(module)
     }
     

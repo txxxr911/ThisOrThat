@@ -1,52 +1,34 @@
 //
-//  CatalogViewController.swift
+//  CatalogViewControllerLayout.swift
 //  ThisOrThat
 //
-//  Created by Victor on 16.04.2022
-//  
+//  Created by Victor on 28.04.2022.
 //
 
+import Foundation
 import UIKit
+import SnapKit
 
-class CatalogViewController: UIViewController, UITableViewDataSource, CatalogViewInput {
-    var output: CatalogViewOutput!
+extension CatalogViewController {
     
-    let backgroundImage = UIImageView()
-    let viewTitle = UILabel()
-    
-    
-    let navigationBar = UINavigationBar()
-    let tableView = UITableView()
-    
-    let superPopularRectangleView = UIView()
-    let superPopularText = UILabel()
-    
-    let onMonthView = UIView()
-    let trySetView = UIView()
-    let cinemaView = UIView()
-    let romanticView = UIView()
-    let schoolView = UIView()
-    
-    
-    var cards = [UIView?](repeating: nil, count: 6)
-    
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        output.viewDidLoad()
-        bind()
-        initialize()
-        
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        layoutBackgroundImage()
+        layoutNavigationBar()
+        //layoutBackButton()
+        layoutTableView()
     }
     
-    func initialize() {
-        
+    fileprivate func layoutBackgroundImage() {
         view.addSubview(backgroundImage)
-        view.addSubview(tableView)
+        backgroundImage.image = UIImage(named: "background")
+        backgroundImage.snp.makeConstraints { make in
+            make.edges.equalToSuperview()
+        }
+    }
+    
+    fileprivate func layoutNavigationBar() {
         view.addSubview(navigationBar)
-
-        
-        
         navigationBar.snp.makeConstraints { make in
             make.width.equalToSuperview()
             make.height.equalTo(45)
@@ -63,58 +45,23 @@ class CatalogViewController: UIViewController, UITableViewDataSource, CatalogVie
             make.height.equalTo(39)
             make.top.equalTo(navigationBar).inset(3)
             make.centerX.equalTo(navigationBar)
-            
         }
-        
-        
-        
-        
-       
-        
-       
-        
-        
-        
-        
-        backgroundImage.image = UIImage(named: "background")
-        backgroundImage.snp.makeConstraints { make in
-            make.top.equalToSuperview().inset(0)
+    }
+    
+    
+    fileprivate func layoutTableView() {
+        view.addSubview(tableView)
+        tableView.contentInset = UIEdgeInsets(top: 15, left: 0, bottom: 0, right: 0)
+        tableView.snp.makeConstraints { make in
+            make.top.equalTo(navigationBar).inset(65)
             make.bottom.equalToSuperview().inset(0)
             make.left.equalToSuperview().inset(0)
             make.right.equalToSuperview().inset(0)
         }
-        
-        
-        
-        
-        
-        superPopularRectangleView.snp.makeConstraints { make in
-            make.width.equalTo(239)
-            make.height.equalTo(36)
-        }
-        let superPopularRectangleBackground = UIImageView()
-        superPopularRectangleBackground.image = UIImage(named: "superPopularRect")
-        superPopularRectangleView.addSubview(superPopularRectangleBackground)
-        superPopularRectangleBackground.snp.makeConstraints { make in
-            make.edges.equalTo(superPopularRectangleView)
-        }
-        
-        
-        
-        superPopularText.text = "СУПЕР ПОПУЛЯРНО"
-        superPopularText.textColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.32)
-        superPopularText.textAlignment = .center
-        superPopularText.font = UIFont(name: "YanoneKaffeesatz-Bold" , size: 18)
-        superPopularRectangleView.addSubview(superPopularText)
-        superPopularText.snp.makeConstraints { make in
-            make.width.equalTo(239)
-            make.height.equalTo(36)
-            make.top.equalTo(superPopularRectangleBackground).inset(3)
-            make.centerX.equalTo(superPopularRectangleBackground)
-            
-        }
-        
-        // Карточка на месяц
+    }
+    
+    
+    fileprivate func layoutCards() {
         
         onMonthView.snp.makeConstraints { make in
             make.width.equalTo(339)
@@ -706,48 +653,6 @@ class CatalogViewController: UIViewController, UITableViewDataSource, CatalogVie
             make.top.equalTo(schoolView).inset(20)
             make.left.equalTo(schoolView).inset(13)
         }
-        
-        cards[0] = superPopularRectangleView
-        cards[1] = onMonthView
-        cards[2] = trySetView
-        cards[3] = cinemaView
-        cards[4] = romanticView
-        cards[5] = schoolView
-   }
-}
-
-// MARK: - Configure
-extension CatalogViewController: UITableViewDelegate {
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return cards.count
     }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
-        let cell = tableView.dequeueReusableCell(withIdentifier: CatalogCustomCell.identifier, for: indexPath) as! CatalogCustomCell
-        cell.selectionStyle = .none
-        cell.card = cards[indexPath.row]!
-        cell.backgroundColor = .clear
-        return cell
-    }
-    
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        if indexPath.row == 0 {return 10}
-        else {return 168}
-    }
 }
-
-// MARK: View Input
-extension CatalogViewController {
-    func set(title: String) {
-        self.title = title
-    }
-}
-
-// MARK: Button Action
-extension CatalogViewController {
-    
-}
-
-
-

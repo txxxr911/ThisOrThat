@@ -35,6 +35,7 @@ class AppDelegate: AppDelegateManager {
         container.apply(AppConfigServiceAssembly.self)
         container.apply(EnvironmentServiceAssembly.self)
         container.apply(PlayerDataServiceAssembly.self)
+        container.apply(QuestionDataServiceAssembly.self)
         
         return container
     }()

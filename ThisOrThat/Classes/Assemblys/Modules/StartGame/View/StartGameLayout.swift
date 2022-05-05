@@ -20,6 +20,8 @@ extension StartGameViewController {
         layoutTableView()
     }
     
+    
+    
     fileprivate func layoutBackgroundImage() {
         view.addSubview(backgroundImage)
         backgroundImage.image = UIImage(named: "background")
