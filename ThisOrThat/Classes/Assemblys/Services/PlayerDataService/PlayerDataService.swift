@@ -13,8 +13,8 @@ class PlayerDataService: PlayerDataServiceType {
     let realm = try! Realm()
     
     func all() -> [Player] {
-        let items = realm.objects(PlayerRealm.self)
-        return Array(items.map {Player(realmObject: $0)})
+        let players = realm.objects(PlayerRealm.self)
+        return Array(players.map {Player(realmObject: $0)})
     }
     
     func add(players: [Player]) {

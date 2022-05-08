@@ -9,6 +9,7 @@ import Foundation
 import UIKit
 
 extension GameProcessViewController {
+    
     func layout() {
         layoutBackground()
         layoutRoundCounterLabel()
@@ -215,7 +216,7 @@ extension GameProcessViewController {
         view.addSubview(playerTable)
         
         playerTable.snp.makeConstraints { make in
-            make.top.equalTo(leadingLabel.snp.bottom).inset(-40)
+            make.top.equalTo(leadingLabel.snp.bottom).inset(-30)
             make.bottom.equalTo(resultsButton.snp.top).offset(-20)
             make.left.right.equalToSuperview().inset(10)
         }

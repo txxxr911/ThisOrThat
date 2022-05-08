@@ -30,17 +30,19 @@ extension ResultsViewController {
 extension ResultsViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
-        4
+        output.players.count
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 60
+        return 90
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
             let player = output.players[indexPath.row]
             let cell = ResultsCell()
                                     .setup(player: player)
+        cell.backgroundColor = .clear
+        cell.selectionStyle = .none
         return cell
     }
 }

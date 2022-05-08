@@ -25,6 +25,7 @@ class ResultsViewController: UIViewController, UITableViewDataSource, ResultsVie
     override func viewDidLoad() {
         super.viewDidLoad()
         output.viewDidLoad()
+        layout()
         bind()
     }
     
@@ -42,7 +43,6 @@ extension ResultsViewController {
 // MARK: View Input
 extension ResultsViewController {
     func set(title: String) {
-        self.title = title
     }
 }
 

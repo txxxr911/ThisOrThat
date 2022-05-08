@@ -10,4 +10,8 @@ import Foundation
 
 class ResultsRouter: BaseModuleRouter, ResultsRouterProtocol {
     
+    func endGame() {
+        let module = container.resolve(MainAssembly.self).build(coordinator: coordinator)
+        coordinator.router.setRootModule(module)
+    }
 }

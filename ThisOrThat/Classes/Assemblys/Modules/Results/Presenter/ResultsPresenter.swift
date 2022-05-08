@@ -9,7 +9,9 @@
 import Foundation
 
 class ResultsPresenter: BasePresenter<ResultsInteractorInput, ResultsRouterProtocol>, ResultsModuleOutput {
-    var players: [Player] {interactor.players}
+    var players: [Player] {interactor.players.sorted {
+        $0.score > $1.score
+    }}
     // MARK: - Weak properties
     weak var view: ResultsViewInput?
 }
@@ -27,7 +29,8 @@ extension ResultsPresenter: ResultsModuleInput {
 // MARK: View Output
 extension ResultsPresenter: ResultsViewOutput {
     func endGame() {
-        
+        interactor.resetData()
+        router.endGame()
     }
     
     func viewDidLoad() {

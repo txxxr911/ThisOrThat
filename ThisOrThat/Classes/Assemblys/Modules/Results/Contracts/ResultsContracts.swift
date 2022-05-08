@@ -33,9 +33,10 @@ protocol ResultsViewOutput: class {
 // Interactor
 protocol ResultsInteractorInput {
     var players: [Player] {get set}
+    func resetData()
 }
 
 // Router
 protocol ResultsRouterProtocol: AlertRoutable {
-    
+    func endGame()
 }

@@ -38,7 +38,7 @@ class ResultsCell: UITableViewCell {
         background.snp.makeConstraints { make in
             
             make.width.equalTo(339)
-            make.height.equalTo(90)
+            make.height.equalTo(80)
             make.centerX.centerY.equalToSuperview()
         }
     }
@@ -73,7 +73,7 @@ class ResultsCell: UITableViewCell {
         score.snp.makeConstraints { make in
             make.width.height.equalTo(50)
             make.top.equalToSuperview().inset(10)
-            make.right.equalToSuperview().inset(15)
+            make.right.equalToSuperview().inset(30)
         }
     }
     
@@ -110,7 +110,7 @@ class ResultsCell: UITableViewCell {
         score.text = String(player.score)
         score.textColor = .white
         score.textAlignment = .center
-        score.font = UIFont(name: "YanoneKaffeesatz-Bold", size: 36)
+        score.font = UIFont(name: "YanoneKaffeesatz-Bold", size: 30)
         
         
         scoreLabel.text = "баллов"
