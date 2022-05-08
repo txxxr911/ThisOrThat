@@ -26,10 +26,13 @@ protocol ResultsViewInput: class {
 // View Output
 protocol ResultsViewOutput: class {
     func viewDidLoad()
+    var players: [Player] { get }
+    func endGame()
 }
 
 // Interactor
 protocol ResultsInteractorInput {
+    var players: [Player] {get set}
 }
 
 // Router

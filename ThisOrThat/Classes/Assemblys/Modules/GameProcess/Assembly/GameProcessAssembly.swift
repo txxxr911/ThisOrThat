@@ -11,7 +11,7 @@ import UIKit
 typealias GameProcessModule = Module<GameProcessModuleInput, GameProcessModuleOutput>
 
 class GameProcessAssembly: Assembly {
-    func build(items: [Player], coordinator: CoordinatorType) -> GameProcessModule {
+    func build(players: [Player], coordinator: CoordinatorType) -> GameProcessModule {
         // View
         let view = GameProcessViewController.controllerFromStoryboard("GameProcess")
         
@@ -20,7 +20,7 @@ class GameProcessAssembly: Assembly {
         let playerDataService = container.resolve(PlayerDataServiceAssembly.self).build()
         
         // Interactor
-        let interactor = GameProcessInteractor(items: items, questionDataService: questionDataService, playersDataService: playerDataService)
+        let interactor = GameProcessInteractor(players: players, playersInGame: players, leadingPlayer: players[0], questionDataService: questionDataService, playersDataService: playerDataService)
         
         // Router
         let router = GameProcessRouter(coordinator: coordinator)

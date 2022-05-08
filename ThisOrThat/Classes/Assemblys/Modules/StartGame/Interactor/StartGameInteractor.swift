@@ -11,21 +11,21 @@ import Foundation
 class StartGameInteractor: StartGameInteractorInput {
 
     let playerDataService: PlayerDataServiceType
-    var items: [Player] = []
+    var players: [Player] = []
     
     init (playerDataService: PlayerDataServiceType) {
         self.playerDataService = playerDataService
-        items.append(contentsOf: playerDataService.all())
+        players.append(contentsOf: playerDataService.all())
     }
 
     func addPlayer() {
         let player = Player()
         player.image = playerImage(player: player)
-        items.append(player)
+        players.append(player)
     }
     
     func removePlayer(player: Player) {
-        items.removeObject(player)
+        players.removeObject(player)
     }
     
     func changeSex(player: Player) {
@@ -34,7 +34,7 @@ class StartGameInteractor: StartGameInteractorInput {
     
     func save() {
         playerDataService.delete()
-        playerDataService.add(players: items)
+        playerDataService.add(players: players)
     }
     
     fileprivate func playerImage(player: Player) -> String {

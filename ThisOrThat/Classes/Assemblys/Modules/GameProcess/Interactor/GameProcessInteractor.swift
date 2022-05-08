@@ -10,17 +10,23 @@ import Foundation
 
 class GameProcessInteractor: GameProcessInteractorInput {
     
-    var items: [Player]
+    var players: [Player]
     let questionDataService: QuestionDataServiceType
     let playersDataService: PlayerDataServiceType
+    var round = 1
+    
+    var leadingPlayer: Player?
+    var playersInGame: [Player]
     
     private(set) var selectedPlayer: Player?
     
     
-    init(items: [Player], questionDataService: QuestionDataServiceType, playersDataService: PlayerDataServiceType) {
-        self.items = items
+    init(players: [Player], playersInGame: [Player], leadingPlayer: Player, questionDataService: QuestionDataServiceType, playersDataService: PlayerDataServiceType) {
+        self.players = players
         self.playersDataService = playersDataService
         self.questionDataService = questionDataService
+        self.leadingPlayer = leadingPlayer
+        self.playersInGame = playersInGame
     }
     
     func increaseScore() {
@@ -31,8 +37,30 @@ class GameProcessInteractor: GameProcessInteractorInput {
         
     }
     
+    func changeQuestion() {
+        
+    }
+    
+    func changeLeading() {
+        guard let player = leadingPlayer else { return }
+        guard let currentPlayerIndex = players.firstIndex(of: player) else { return }
+        
+        if players.count - 1 == currentPlayerIndex {
+            self.leadingPlayer = players[0]
+        }
+        else {
+            self.leadingPlayer = players[currentPlayerIndex + 1]
+        }
+        round += 1
+    }
+    
+    func setPlayersInGame() {
+        playersInGame = players.filter { $0.id != leadingPlayer?.id }
+    }
+    
     func setPlayer(selected player: Player) {
         selectedPlayer = player
+        print("selected \(player.name)")
     }
 }
 

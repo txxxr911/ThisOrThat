@@ -30,6 +30,10 @@ class PlayerRealm: Object {
     @objc dynamic var iconName: String = ""
     @objc dynamic var score = 0
     @objc dynamic var sex = 0
+    
+    override static func primaryKey() -> String? {
+        return "id"
+    }
 }
 
 enum Sex: Int, Codable {

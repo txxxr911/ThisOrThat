@@ -34,14 +34,14 @@ extension GameProcessViewController {
     
     func layoutRoundCounterLabel() {
         view.addSubview(roundCounterLabel)
-        roundCounterLabel.text = "1 Раунд"
+        roundCounterLabel.text = ""
         roundCounterLabel.textAlignment = .center
         roundCounterLabel.textColor = .white
         roundCounterLabel.font = UIFont(name: "YanoneKaffeesatz-Bold", size: 36)
         
         
         roundCounterLabel.snp.makeConstraints { make in
-            make.width.equalTo(90)
+            make.width.equalTo(120)
             make.height.equalTo(40)
             make.centerX.equalToSuperview()
             make.top.equalToSuperview().inset(20)

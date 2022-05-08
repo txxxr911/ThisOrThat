@@ -10,4 +10,10 @@ import Foundation
 
 class GameProcessRouter: BaseModuleRouter, GameProcessRouterProtocol {
     
+    func showResults(players: [Player]) {
+        let module = self.container.resolve(ResultsAssembly.self).build(players: players, coordinator: coordinator)
+        coordinator.router.push(module)
+    }
+    
+    
 }

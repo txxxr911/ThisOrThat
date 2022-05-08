@@ -10,6 +10,7 @@ import UIKit
 
 class SelectedPlayerCell: UITableViewCell {
     
+    private let background = UIImageView()
     private let playerName = UITextField()
     private let playerIcon = UIImageView()
     private let scoreRect = UIImageView()
@@ -25,30 +26,40 @@ class SelectedPlayerCell: UITableViewCell {
         super.init(coder: coder)
     }
     
-    func setup(item: Player) -> SelectedPlayerCell {
-        player = item
-        playerName.text = item.name
-        playerName.textColor = .white
-        playerName.font = UIFont(name: "YanoneKaffeesatz-Bold", size: 16)
+    func setup(player: Player) -> SelectedPlayerCell {
         
-        playerIcon.image = UIImage(named: item.image)
-        playerIcon.image = UIImage(named: item.image)
+        background.image = UIImage(named: "select_row_background")
+        
+        self.player = player
+        playerName.text = player.name
+        playerName.textColor = .white
+        playerName.font = UIFont(name: "YanoneKaffeesatz-Bold", size: 17)
+        
+        playerIcon.image = UIImage(named: player.image)
         playerIcon.cornerRadius = 7.5
         
-        scoreLabel.text = String(item.score)
-        scoreLabel.text = String(item.score)
+        scoreLabel.text = String(+1)
         scoreLabel.textColor = .gray
-        scoreLabel.font = UIFont(name: "Yannone-Kaffeesatz-Bold", size: 8)
+        scoreLabel.font = UIFont(name: "YannoneKaffeesatz-Bold", size: 17)
         
         return self
     }
     
     
     fileprivate func layout() {
+        layoutBackground()
         layoutPlayerIcon()
         layoutPlayerName()
-        layoutScoreRect()
         layoutScoreLabel()
+        layoutScoreRect()
+    }
+    
+    fileprivate func layoutBackground() {
+        contentView.addSubview(background)
+        
+        background.snp.makeConstraints { make in
+            make.edges.equalToSuperview()
+        }
     }
     
     fileprivate func layoutPlayerIcon() {
@@ -80,8 +91,8 @@ class SelectedPlayerCell: UITableViewCell {
         
         scoreRect.snp.makeConstraints { make in
             make.width.equalTo(44)
-            make.height.equalTo(36)
-            make.right.equalToSuperview().inset(48)
+            make.height.equalTo(42)
+            make.right.equalToSuperview().inset(5)
             make.centerY.equalToSuperview()
         }
     }

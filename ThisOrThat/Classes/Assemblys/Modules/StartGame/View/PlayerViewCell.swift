@@ -35,11 +35,11 @@ class PlayerViewCell: UITableViewCell {
         layoutPlayerNameTextField()
     }
     
-    func setup(item: Player) -> PlayerViewCell {
-        player = item
-        playerName.text = item.name
-        playerIcon.setImage(UIImage(named: item.image), for: .normal)
-        if(item.sex == .man) {
+    func setup(player: Player) -> PlayerViewCell {
+        self.player = player
+        playerName.text = player.name
+        playerIcon.setImage(UIImage(named: player.image), for: .normal)
+        if(player.sex == .man) {
             background.image = UIImage(named: "rectBlue")
         }
         else {

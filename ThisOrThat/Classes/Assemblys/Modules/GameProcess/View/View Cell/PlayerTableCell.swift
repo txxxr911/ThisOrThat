@@ -58,24 +58,24 @@ class PlayerCell: UITableViewCell {
             make.width.equalTo(25)
             make.height.equalTo(20)
             make.centerY.equalToSuperview()
-            make.right.equalToSuperview().inset(5)
+            make.right.equalToSuperview().inset(10)
         }
         
     }
     
-    func setup(item: Player) -> PlayerCell {
-        player = item
-        playerName.text = item.name
+    func setup(player: Player) -> PlayerCell {
+        self.player = player
+        playerName.text = player.name
         playerName.textColor = .white
-        playerName.font = UIFont(name: "YanoneKaffeesatz-Bold", size: 16)
+        playerName.font = UIFont(name: "YanoneKaffeesatz-Bold", size: 17)
         
-        playerIcon.image = UIImage(named: item.image)
+        playerIcon.image = UIImage(named: player.image)
         playerIcon.cornerRadius = 7.5
         
         
-        scoreLabel.text = String(item.score)
+        scoreLabel.text = String("+1")
         scoreLabel.textColor = .gray
-        scoreLabel.font = UIFont(name: "Yannone-Kaffeesatz-Bold", size: 8)
+        scoreLabel.font = UIFont(name: "YanoneKaffeesatz-Bold", size: 17)
         
         return self
     }

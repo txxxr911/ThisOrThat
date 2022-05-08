@@ -15,7 +15,7 @@ extension StartGameViewController {
         bindStartButton()
         
     }
-    func bindStartButton(){
+   fileprivate func bindStartButton(){
 startButton.addTarget(self, action: #selector(startbuttonPressed), for: .touchUpInside)
     }
     
@@ -43,7 +43,7 @@ startButton.addTarget(self, action: #selector(startbuttonPressed), for: .touchUp
 extension StartGameViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
-        output.items.count
+        output.players.count
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -51,17 +51,17 @@ extension StartGameViewController: UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-            let item = output.items[indexPath.row]
+            let player = output.players[indexPath.row]
             let cell = PlayerViewCell()
             .addRemoveBlock {
                 [weak self] in
-                self?.removeButtonDidTap(player: item)
+                self?.removeButtonDidTap(player: player)
             }
             .addChangeSexBlock {
                 [weak self] in
-                self?.changeSexButtonDidTap(player: item)
+                self?.changeSexButtonDidTap(player: player)
             }
-            .setup(item: item)
+            .setup(player: player)
             cell.backgroundColor = .clear
             cell.selectionStyle = .none
             return cell

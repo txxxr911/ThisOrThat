@@ -8,12 +8,29 @@
 
 import UIKit
 
-class ResultsViewController: UIViewController, ResultsViewInput {
+class ResultsViewController: UIViewController, UITableViewDataSource, ResultsViewInput {
     var output: ResultsViewOutput!
+    
+    var backgroundImage = UIImageView()
+    var viewTitle = UILabel()
+    
+    var navigationBar = UINavigationBar()
+    var tableView = UITableView()
+    
+    
+    let endButtonImage = UIImageView()
+    let endLabel = UILabel()
+    let endButton = UIButton()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         output.viewDidLoad()
+        bind()
+    }
+    
+    @objc func endButtonPressed() {
+        output.endGame()
+        
     }
 }
 

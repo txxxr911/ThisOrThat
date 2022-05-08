@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		370B84D4281190D600609282 /* MainViewControllerBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370B84D3281190D600609282 /* MainViewControllerBindings.swift */; };
 		370B84D6281193A500609282 /* MainViewControllerLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370B84D5281193A500609282 /* MainViewControllerLayout.swift */; };
+		3730AA712826FBC1009950B2 /* ResultsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3730AA702826FBC1009950B2 /* ResultsCell.swift */; };
+		3730AA732826FBD2009950B2 /* ResultsBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3730AA722826FBD2009950B2 /* ResultsBindings.swift */; };
+		3730AA752826FBE0009950B2 /* ResultsLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3730AA742826FBE0009950B2 /* ResultsLayout.swift */; };
 		37328FC0281310DD0024404C /* StartGameBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37328FBF281310DD0024404C /* StartGameBindings.swift */; };
 		37328FC2281310F70024404C /* StartGameLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37328FC1281310F70024404C /* StartGameLayout.swift */; };
 		3745DE2D2821344D00409233 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3745DE2C2821344D00409233 /* Task.swift */; };
@@ -193,6 +196,9 @@
 		12E76937F450917480E1025B /* Pods-ThisOrThat-ThisOrThatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThisOrThat-ThisOrThatUITests.debug.xcconfig"; path = "Target Support Files/Pods-ThisOrThat-ThisOrThatUITests/Pods-ThisOrThat-ThisOrThatUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		370B84D3281190D600609282 /* MainViewControllerBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewControllerBindings.swift; sourceTree = "<group>"; };
 		370B84D5281193A500609282 /* MainViewControllerLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewControllerLayout.swift; sourceTree = "<group>"; };
+		3730AA702826FBC1009950B2 /* ResultsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsCell.swift; sourceTree = "<group>"; };
+		3730AA722826FBD2009950B2 /* ResultsBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsBindings.swift; sourceTree = "<group>"; };
+		3730AA742826FBE0009950B2 /* ResultsLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsLayout.swift; sourceTree = "<group>"; };
 		37328FBF281310DD0024404C /* StartGameBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartGameBindings.swift; sourceTree = "<group>"; };
 		37328FC1281310F70024404C /* StartGameLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartGameLayout.swift; sourceTree = "<group>"; };
 		3745DE2C2821344D00409233 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
@@ -1315,6 +1321,9 @@
 			isa = PBXGroup;
 			children = (
 				3746AE2D280B1D96003439DF /* ResultsViewController.swift */,
+				3730AA702826FBC1009950B2 /* ResultsCell.swift */,
+				3730AA722826FBD2009950B2 /* ResultsBindings.swift */,
+				3730AA742826FBE0009950B2 /* ResultsLayout.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1780,6 +1789,7 @@
 				3746AD23280B1BAD003439DF /* BasePresenter.swift in Sources */,
 				37887395280DF3CA00E4BF7F /* RulesCustomCell.swift in Sources */,
 				3746ACE3280B1BAD003439DF /* MainCoordinator.swift in Sources */,
+				3730AA712826FBC1009950B2 /* ResultsCell.swift in Sources */,
 				3746AD6D280B1BAD003439DF /* DeviceTweak.swift in Sources */,
 				37A6C31A281FD922001DD7AC /* PlayerDataServiceAssembly.swift in Sources */,
 				3745DE332821727400409233 /* PlayerTableCell.swift in Sources */,
@@ -1797,6 +1807,7 @@
 				3746AD69280B1BAD003439DF /* WeakContainer.swift in Sources */,
 				3746AD03280B1BAD003439DF /* AppDelegateManager.swift in Sources */,
 				3746AD65280B1BAD003439DF /* StrongBox.swift in Sources */,
+				3730AA752826FBE0009950B2 /* ResultsLayout.swift in Sources */,
 				3746ADC4280B1CC1003439DF /* GameProcessContracts.swift in Sources */,
 				3746AD30280B1BAD003439DF /* UIColor+Ext.swift in Sources */,
 				370B84D4281190D600609282 /* MainViewControllerBindings.swift in Sources */,
@@ -1846,6 +1857,7 @@
 				37887399280DF55C00E4BF7F /* PlayerViewCell.swift in Sources */,
 				3746AD71280B1BAD003439DF /* UtilsTweak.swift in Sources */,
 				3746ADC7280B1CC1003439DF /* GameProcessInteractor.swift in Sources */,
+				3730AA732826FBD2009950B2 /* ResultsBindings.swift in Sources */,
 				37A6C310281FD922001DD7AC /* QuestionDataService.swift in Sources */,
 				37BEEBA6280D96D100A18026 /* CatalogCoordinatorType.swift in Sources */,
 				3746AD20280B1BAD003439DF /* ViewBuilder.swift in Sources */,

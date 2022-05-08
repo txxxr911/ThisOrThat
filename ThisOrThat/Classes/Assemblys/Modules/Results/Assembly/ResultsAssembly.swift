@@ -11,12 +11,12 @@ import UIKit
 typealias ResultsModule = Module<ResultsModuleInput, ResultsModuleOutput>
 
 class ResultsAssembly: Assembly {
-    func build(coordinator: CoordinatorType) -> ResultsModule {
+    func build(players: [Player], coordinator: CoordinatorType) -> ResultsModule {
         // View
         let view = ResultsViewController.controllerFromStoryboard("Results")
         
         // Interactor
-        let interactor = ResultsInteractor()
+        let interactor = ResultsInteractor(players: players)
         
         // Router
         let router = ResultsRouter(coordinator: coordinator)

@@ -26,7 +26,7 @@ protocol StartGameViewInput: class {
 // View Output
 protocol StartGameViewOutput: class {
     func viewDidLoad()
-    var items: [Player] { get }
+    var players: [Player] { get }
     func addPlayer()
     func didRemoveItem(player: Player)
     func changeSexButtonDidTap(player: Player)
@@ -36,7 +36,7 @@ protocol StartGameViewOutput: class {
 
 // Interactor
 protocol StartGameInteractorInput {
-    var items: [Player] { get }
+    var players: [Player] { get }
     func addPlayer()
     func removePlayer(player: Player)
     func changeSex(player: Player)

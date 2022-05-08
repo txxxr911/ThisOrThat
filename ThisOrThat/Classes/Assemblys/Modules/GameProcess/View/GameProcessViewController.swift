@@ -9,9 +9,9 @@
 import UIKit
 
 class GameProcessViewController: UIViewController, UITableViewDataSource, GameProcessViewInput {
+     
     var output: GameProcessViewOutput!
     
-    //var input: GameProcessViewInput!
     
     let backgroundImage = UIImageView()
     var roundCounterLabel = UILabel()
@@ -32,12 +32,24 @@ class GameProcessViewController: UIViewController, UITableViewDataSource, GamePr
     let nextStepButton = UIButton()
     
     
+    @objc func resultsButtonPressed() {
+        output.didTapResultsButton()
+    }
+    
+    @objc func nextStepButtonPressed() {
+        output.didTapNextStepButton()
+    }
+    
+    
+    func reloadPlayerTable() {
+        playerTable.reloadData()
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        layout()
         output.viewDidLoad()
         bind()
-        layout()
     }
 }
 
@@ -48,8 +60,9 @@ extension GameProcessViewController {
 
 // MARK: View Input
 extension GameProcessViewController {
-    func set(title: String) {
-        self.title = title
+    func set(player: Player?, round: Int) {
+        leadingName.text = player?.name
+        roundCounterLabel.text = String("\(round) Раунд")
     }
 }
 

@@ -15,7 +15,7 @@ class StartGameRouter: BaseModuleRouter, StartGameRouterProtocol {
     
     // tut pomenyat
     func navigateToCatalog(players: [Player]) {
-        let module = container.resolve(GameProcessAssembly.self).build(items: players , coordinator: coordinator)
+        let module = container.resolve(GameProcessAssembly.self).build(players: players , coordinator: coordinator)
         coordinator.router.push(module)
     }
     
@@ -25,7 +25,7 @@ class StartGameRouter: BaseModuleRouter, StartGameRouterProtocol {
     }
     
     func showGameProcessView(players: [Player]) {
-        let module = self.container.resolve(GameProcessAssembly.self).build(items: players, coordinator: self.coordinator)
+        let module = self.container.resolve(GameProcessAssembly.self).build(players: players, coordinator: self.coordinator)
         coordinator.router.push(module)
     }
     

@@ -73,7 +73,6 @@ class StartGameViewController: UIViewController, UITableViewDataSource,  StartGa
 // MARK: View Input
 extension StartGameViewController {
     func set(title: String) {
-        //self.title = title
     }
 }
 

@@ -24,11 +24,11 @@ extension GameProcessViewController {
     }
     
     func bindResultsButton() {
-        //resultsButton.addTarget(self, action: #selector(resultsButtonPressed), for: .touchUpInside)
+        resultsButton.addTarget(self, action: #selector(resultsButtonPressed), for: .touchUpInside)
     }
     
     func bindNextStepButton() {
-        //nextStepButton.addTarget(self, action: #selector(nextStepButtonPressed), for: .touchUpInside)
+        nextStepButton.addTarget(self, action: #selector(nextStepButtonPressed), for: .touchUpInside)
     }
     
     
@@ -37,7 +37,7 @@ extension GameProcessViewController {
 extension GameProcessViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
-        output.items.count
+        output.playersInGame.count
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -45,18 +45,26 @@ extension GameProcessViewController: UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-            let item = output.items[indexPath.row]
-            let cell = PlayerCell()
-            .setup(item: item)
-        
-        cell.backgroundColor = .clear
-        //cell.selectionStyle = .none
+            let player = output.playersInGame[indexPath.row]
+        if(output.selectedCell[indexPath.row]) {
+            let cell = SelectedPlayerCell()
+                .setup(player: player)
+            cell.backgroundColor = .clear
+            cell.selectionStyle = .none
             return cell
+        }
+        else{
+            let cell = PlayerCell()
+            .setup(player: player)
+            cell.backgroundColor = .clear
+            cell.selectionStyle = .none
+            return cell
+        }
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
-                
+        output.didSelectedPlayer(by: indexPath.row)
     }
     
 }

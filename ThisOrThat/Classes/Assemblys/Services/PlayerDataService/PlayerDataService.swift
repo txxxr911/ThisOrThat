@@ -10,6 +10,8 @@ import Foundation
 import RealmSwift
 
 class PlayerDataService: PlayerDataServiceType {
+    let realm = try! Realm()
+    
     func all() -> [Player] {
         let items = realm.objects(PlayerRealm.self)
         return Array(items.map {Player(realmObject: $0)})
@@ -29,6 +31,7 @@ class PlayerDataService: PlayerDataServiceType {
     }
     
     func increasePlayerScore(player: Player) {
+        print("increased")
         let realmPlayer = realm.objects(PlayerRealm.self).first {$0.id == player.id}
         guard let realmPlayer = realmPlayer else {return}
         
@@ -38,9 +41,5 @@ class PlayerDataService: PlayerDataServiceType {
         }
         
     }
-    
-    
-    
-    let realm = try! Realm()
     
 }

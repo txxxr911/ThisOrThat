@@ -9,7 +9,7 @@
 import Foundation
 
 class StartGamePresenter: BasePresenter<StartGameInteractorInput, StartGameRouterProtocol>, StartGameModuleOutput {
-    var items: [Player] { interactor.items }
+    var players: [Player] { interactor.players }
     
     // MARK: - Weak properties
     weak var view: StartGameViewInput?
@@ -52,12 +52,12 @@ extension StartGamePresenter: StartGameViewOutput {
             print(error)
         }
         interactor.save()
-        router.navigateToCatalog(players: items)
+        router.navigateToCatalog(players: players)
         //router.showGameProcessView()
     }
     
     func validatePlayers() throws {
-        if interactor.items.count < 2 { print("Небольшая компания у вас") }
+        if interactor.players.count < 2 { print("Небольшая компания у вас") }
     }
     
     func viewDidLoad() {
