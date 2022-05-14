@@ -11,6 +11,8 @@ import Foundation
 class GameProcessInteractor: GameProcessInteractorInput {
     
     var players: [Player]
+    var items: [QuestionModel] = []
+    
     let questionDataService: QuestionDataServiceType
     let playersDataService: PlayerDataServiceType
     var round = 1
@@ -37,6 +39,11 @@ class GameProcessInteractor: GameProcessInteractorInput {
         
     }
     
+    func endGame() {
+        players.removeAll()
+        players.append(contentsOf: playersDataService.all())
+    }
+    
     func changeQuestion() {
         
     }
@@ -61,6 +68,11 @@ class GameProcessInteractor: GameProcessInteractorInput {
     func setPlayer(selected player: Player) {
         selectedPlayer = player
         print("selected \(player.name)")
+    }
+    
+    func loadCards() {
+        items.removeAll()
+        //let models = questionDataService.getFree(setName: set)
     }
 }
 

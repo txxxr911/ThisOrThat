@@ -1,0 +1,42 @@
+[
+    {
+        "id": "com.artemtishchenko.thisorthat.all",
+        "image": "onMonthCardRectangle",
+        "icon": "onMonthIcon",
+        "title": "Подписка",
+        "description": "Самый удобный, дешевый и надежный способ получить все наши наборы на целый месяц!",
+        "tasksCount": "190 заданий",
+    },
+    {
+        "id": "com.artemtishchenko.thisorthat.demo",
+        "image": "trySetCardRectangle",
+        "icon": "trySetIcon",
+        "title": "Пробный набор",
+        "description": "В этом наборе собраны задания из всех наборов, попробуйте и не пожалеете!",
+        "tasksCount": "60 заданий",
+    },
+    {
+        "id": "com.artemtishchenko.thisorthat.cinema",
+        "image": "cinemaCardRectangle",
+        "icon": "cinemaIcon",
+        "title": "Кино",
+        "description": "Бэтмен или Супермен, комедии или ужасы, докажи, что твое мнение самое верное!",
+        "tasksCount": "41 задание",
+    },
+    {
+        "id": "com.artemtishchenko.thisorthat.xxx",
+        "image": "romanticCardRectangle",
+        "icon": "romanticIcon",
+        "title": "Для взрослых",
+        "description": "Хотите обсудить запретные темы или узнать самое сокровенное? Этот набор точно для вас!",
+        "tasksCount": "39 заданий",
+    },
+    {
+        "id": "com.artemtishchenko.thisorthat.school",
+        "image": "schoolCardRectangle",
+        "icon": "schoolIcon",
+        "title": "Школьное",
+        "description": "Узнай, что выберут одноклассники! Неуд по математике или две двойки по обществу",
+        "tasksCount": "50 заданий",
+    },
+]

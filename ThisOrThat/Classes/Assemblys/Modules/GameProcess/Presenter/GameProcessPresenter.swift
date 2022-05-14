@@ -38,6 +38,7 @@ extension GameProcessPresenter: GameProcessViewOutput {
     }
     
     func didTapResultsButton() {
+        interactor.endGame()
         router.showResults(players: players)
     }
     

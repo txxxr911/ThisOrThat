@@ -1,0 +1,2422 @@
+[
+   {
+      "isPlayed" : 0,
+      "rufirst" : "чтобы вашим советником был Мизинец",
+      "ensecond" : "Be Lord of Six Kingdoms and have Varys as Hand of the King",
+      "rusecond" : "чтобы вашим советником был Варис",
+      "recid" : 1,
+      "id" : 1,
+      "enfirst" : "Be Lord of Six Kingdoms and have Littlefinger as Hand of the King",
+      "setName" : "cinema"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "быть Дарт Вейдером",
+      "ensecond" : "become Batman",
+      "rusecond" : "быть Бэтменом",
+      "recid" : 2,
+      "id" : 2,
+      "enfirst" : "becoma Darth Vader",
+      "setName" : "cinema"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "быть второстепенным героем фильма Квентина Тарантино",
+      "ensecond" : "be a star in a comedy",
+      "rusecond" : "быть главным героем комедийного сериала",
+      "recid" : 3,
+      "id" : 3,
+      "enfirst" : "be an actor in Quentin Tarantino's films",
+      "setName" : "cinema"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "учиться на факультете Гриффиндор",
+      "ensecond" : "study at any other faculty",
+      "rusecond" : "учиться на любом другом факультете",
+      "recid" : 4,
+      "id" : 4,
+      "enfirst" : "study at Gryffindor House",
+      "setName" : "cinema"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "иметь скатерть-самобранку",
+      "ensecond" : "have a flying carpet",
+      "rusecond" : "иметь ковер-самолет",
+      "recid" : 5,
+      "id" : 5,
+      "enfirst" : "have a magic tablecloth",
+      "setName" : "cinema"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "смотреть только фильмы",
+      "ensecond" : "watch only TV-shows",
+      "rusecond" : "смотреть только сериалы",
+      "recid" : 6,
+      "id" : 6,
+      "enfirst" : "watch only films",
+      "setName" : "cinema"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "темная сторона силы",
+      "ensecond" : "light side of power",
+      "rusecond" : "светлая сторона силы",
+      "recid" : 7,
+      "id" : 7,
+      "enfirst" : "dark side of power",
+      "setName" : "cinema"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "синюю таблетку",
+      "ensecond" : "red pill",
+      "rusecond" : "красную таблетку",
+      "recid" : 8,
+      "id" : 8,
+      "enfirst" : "blue pill",
+      "setName" : "cinema"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "сила в правде, брат",
+      "ensecond" : "the power is in the money, brother",
+      "rusecond" : "сила в деньгах, брат",
+      "recid" : 9,
+      "id" : 9,
+      "enfirst" : "the power is in the truth, brother",
+      "setName" : "cinema"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "чтобы мир увидел на экране только Гарри Поттера",
+      "ensecond" : "that the world would have watched only The Lord of the Rings",
+      "rusecond" : "чтобы мир увидел на экране только Властелина колец",
+      "recid" : 10,
+      "id" : 10,
+      "enfirst" : "that the world would have watched only Harry Potter",
+      "setName" : "cinema"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "стать популярным актером и умереть молодым",
+      "ensecond" : "be a mediocre actor but be acquainted with celebrities",
+      "rusecond" : "стать посредственным актером, но быть знакомым со многими знаменитостями",
+      "recid" : 11,
+      "id" : 11,
+      "enfirst" : "become a famous actor and die young",
+      "setName" : "cinema"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "смотреть только немое кино",
+      "ensecond" : "watch only art films",
+      "rusecond" : "смотреть только арт-хаус",
+      "recid" : 12,
+      "id" : 12,
+      "enfirst" : "watch only silent films",
+      "setName" : "cinema"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "сразиться с Джеки Чаном",
+      "ensecond" : "find yourself in a ship with Alien",
+      "rusecond" : "оказаться на корабле с Чужим",
+      "recid" : 13,
+      "id" : 13,
+      "enfirst" : "fight with Jackie Chan",
+      "setName" : "cinema"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "посмотреть случайный фильм ничего о нем не зная",
+      "ensecond" : "watch a favorite film 5 times",
+      "rusecond" : "посмотреть любимый фильм 5 раз подряд",
+      "recid" : 14,
+      "id" : 14,
+      "enfirst" : "watch a random film having no idea what it's about",
+      "setName" : "cinema"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "кто сильнее: Мстители",
+      "ensecond" : "X-Men",
+      "rusecond" : "Люди Х",
+      "recid" : 15,
+      "id" : 15,
+      "enfirst" : "who is stronger: Avengers",
+      "setName" : "cinema"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "оказаться запертым в лифте с Джаббой Хаттом",
+      "ensecond" : "be  Derek Zoolander's adopted child",
+      "rusecond" : "быть приемным ребенком Дерека Зуландера",
+      "recid" : 16,
+      "id" : 16,
+      "enfirst" : "get stuck in a lift with Jabba the Hutt",
+      "setName" : "cinema"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "сняться в массовке Игры Престолов",
+      "ensecond" : "played the main role in a weird Japanese show",
+      "rusecond" : "сняться в главной роли сериала телеканала Россия",
+      "recid" : 17,
+      "id" : 17,
+      "enfirst" : "be filmed as a background actor in A Game of Thrones",
+      "setName" : "cinema"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "тусоваться с постоянными посетителями кофейни Central Perk",
+      "ensecond" : "hang out with regular customers of MacLaren's pub",
+      "rusecond" : "тусоваться с постоянными посетителями паба Маккларенс",
+      "recid" : 18,
+      "id" : 18,
+      "enfirst" : "hang out with regular customers of the cafe Central Park",
+      "setName" : "cinema"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "посетить Парк Юрского Периода",
+      "ensecond" : "visit Westworld",
+      "rusecond" : "посетить Мир Дикого Запада",
+      "recid" : 19,
+      "id" : 19,
+      "enfirst" : "visit Jurassic Park",
+      "setName" : "cinema"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "как Йода говорить всегда",
+      "ensecond" : "always speak in verse",
+      "rusecond" : "всегда говорить стихами",
+      "recid" : 20,
+      "id" : 20,
+      "enfirst" : "always speak as Yoda",
+      "setName" : "cinema"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "воскресить Ходора",
+      "ensecond" : "Hodor Hodor Hodor",
+      "rusecond" : "Ходор Ходор Ходор",
+      "recid" : 21,
+      "id" : 21,
+      "enfirst" : "resurrect Hodor",
+      "setName" : "cinema"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "прожить жизнь Форреста Гампа",
+      "ensecond" : "live the life of the main character of \"The Martian\"",
+      "rusecond" : "прожить жизнь главного героя фильма \"Марсианин\"",
+      "recid" : 22,
+      "id" : 22,
+      "enfirst" : "live the life of Forrest Gump",
+      "setName" : "cinema"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "мир, в котором всех персонажей всех фильмов зовут Григорий",
+      "ensecond" : "a world where all characters always walk without pants",
+      "rusecond" : "мир, в котором все персонажи кино всегда ходят без штанов",
+      "recid" : 23,
+      "id" : 23,
+      "enfirst" : "a world where all characters have names Gregory",
+      "setName" : "cinema"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "смотреть кино только без звука",
+      "ensecond" : "listen to a film without acting",
+      "rusecond" : "слушать кино без картинки",
+      "recid" : 24,
+      "id" : 24,
+      "enfirst" : "watch a film without sound",
+      "setName" : "cinema"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "узнать ужасный спойлер любимого фильма/сериала",
+      "ensecond" : "never finish a film and don't know a film ending",
+      "rusecond" : "никогда не досмотреть до конца и не узнать, чем кончится любимый фильм/сериал",
+      "recid" : 25,
+      "id" : 25,
+      "enfirst" : "know a spoiler about a favorite film",
+      "setName" : "cinema"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "ездить бесплатно на кинофестивали",
+      "ensecond" : "watch films in the cinemas for free",
+      "rusecond" : "смотреть фильмы в кинотеатре бесплатно",
+      "recid" : 26,
+      "id" : 26,
+      "enfirst" : "have a free entrance to film festivals",
+      "setName" : "cinema"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "убить Тони Старка",
+      "ensecond" : "kill all children of Ned Stark",
+      "rusecond" : "убить всех детей Нэда Старка",
+      "recid" : 27,
+      "id" : 27,
+      "enfirst" : "kill Tony Stark",
+      "setName" : "cinema"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "иметь машину времени в джакузи",
+      "ensecond" : "drive DeLorean",
+      "rusecond" : "гонять на Делориан",
+      "recid" : 28,
+      "id" : 28,
+      "enfirst" : "have a time machine in the jacuzzi",
+      "setName" : "cinema"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "переживать день сурка снова и снова до конца дней",
+      "ensecond" : "live on the desert island alone and realize that nobody will come",
+      "rusecond" : "жить на необитаемом острове изгоем, зная, что никто не придет",
+      "recid" : 29,
+      "id" : 29,
+      "enfirst" : "have a Groundhog day situation for the rest of your life",
+      "setName" : "cinema"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "есть в кинотеатре все, что угодно, но запивать это бульоном",
+      "ensecond" : "drink in the cinema whatever you want but  eat only pickles",
+      "rusecond" : "пить в кинотеатре все, что угодно, но есть только солёные огурцы",
+      "recid" : 30,
+      "id" : 30,
+      "enfirst" : "eat whatever you want in the cinema but drink only bottled water",
+      "setName" : "cinema"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "получить премию Золотая малина",
+      "ensecond" : "be nominated for Oscar but never would have won awards",
+      "rusecond" : "номинироваться на премию Оскар каждый год и никогда не выигрывать",
+      "recid" : 31,
+      "id" : 31,
+      "enfirst" : "get the Golden Raspberry Awards",
+      "setName" : "cinema"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "прийти на известный кинофестиваль с пакетом на лице и надписью \"I'm not famous anymore\"",
+      "ensecond" : "72 hours of watching a film with yourself in a main role",
+      "rusecond" : "72 часа смотреть фильмы со своим участием",
+      "recid" : 32,
+      "id" : 32,
+      "enfirst" : "visit a popular film festival in a \"I'm not famous anymore\" t-shirt",
+      "setName" : "cinema"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "поселиться с горячим оборотнем Джейкобом в местности, где температура не ниже 30 градусов",
+      "ensecond" : "settle down with a cold vampire Edward in place with 0‎°C",
+      "rusecond" : "поселиться с хладным вампиром Эдвардом в местности, где температура не выше 0 градусов",
+      "recid" : 33,
+      "id" : 33,
+      "enfirst" : "settle down with a hot werewolf Jacob in a place with 30 ‎°C",
+      "setName" : "cinema"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "во всех фильмах нет постельных сцен",
+      "ensecond" : "they are long and close-up",
+      "rusecond" : "они везде затянуты и присутствуют крупные планы",
+      "recid" : 34,
+      "id" : 34,
+      "enfirst" : "there are no bed stages",
+      "setName" : "cinema"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "быть очень известным, но постоянно преследуемым папарацци",
+      "ensecond" : "be popular only in the beginning of your career",
+      "rusecond" : "быть популярным только в начале своей карьеры",
+      "recid" : 35,
+      "id" : 35,
+      "enfirst" : "be very famous but being chased by paparazzi",
+      "setName" : "cinema"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "сократить население Земли вдвое в одно мгновение, как Танос",
+      "ensecond" : "be able to rewind time like Doctor Strange",
+      "rusecond" : "уметь перематывать время, как Доктор Стрэндж",
+      "recid" : 36,
+      "id" : 36,
+      "enfirst" : "halve the population like Thanos at one moment",
+      "setName" : "cinema"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "чтобы на грустных моментах вашей жизни звучала печальная музыка",
+      "ensecond" : "when you make something cool you get applause",
+      "rusecond" : "когда вы сделаете что-то крутое, люди будут хлопать",
+      "recid" : 37,
+      "id" : 37,
+      "enfirst" : "when you feel unhappy you can hear sad music in the background",
+      "setName" : "cinema"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "мир, в котором все фильмы о любви кончаются смертью",
+      "ensecond" : "a world with horror films based on conspiracy theory",
+      "rusecond" : "мир, в котором все фильмы ужасов основаны на теориях канала Рен-Тв",
+      "recid" : 38,
+      "id" : 38,
+      "enfirst" : "a world when all romantic films end with a death",
+      "setName" : "cinema"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "быть пристёгнутым к кровати, как в фильме Груз 200",
+      "ensecond" : "be one part of the house that Jack built",
+      "rusecond" : "быть одной из частей дома, который построил Джек",
+      "recid" : 39,
+      "id" : 39,
+      "enfirst" : "be kidnaped joined surgically like in a film the Human Centipede",
+      "setName" : "cinema"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "на протяжении года каждый день смотреть Иронию судьбы",
+      "ensecond" : "start your day with tv shows about health",
+      "rusecond" : "начинать каждый будний день с передачи Здоровье, с Еленой Малышевой",
+      "recid" : 40,
+      "id" : 40,
+      "enfirst" : "over the years you have to watch Twilight",
+      "setName" : "cinema"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "все фильмы были бы короткометражными",
+      "ensecond" : "all films last 4 and more hours",
+      "rusecond" : "или все фильмы бы шли по 4 часа и более",
+      "recid" : 41,
+      "id" : 41,
+      "enfirst" : "all films are short",
+      "setName" : "cinema"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "заняться анальным сексом со своим партнером",
+      "ensecond" : "give a blowjob 3 different people",
+      "rusecond" : "сделать минет трем разным людям",
+      "recid" : 42,
+      "id" : 42,
+      "enfirst" : "have an anal sex with your partner",
+      "setName" : "adult"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "проработать одну ночь стриптизером(стриптизершей)",
+      "ensecond" : "fight in a underwear in the ring",
+      "rusecond" : "побороться в белье на ринге и возможно выиграть приз",
+      "recid" : 43,
+      "id" : 43,
+      "enfirst" : "work one night as a stripper",
+      "setName" : "adult"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "заняться сексом с одним незнакомцем, без права выбора)",
+      "ensecond" : "kiss 5 random people",
+      "rusecond" : "поцеловать пять незнакомцев (без права выбора)",
+      "recid" : 44,
+      "id" : 44,
+      "enfirst" : "have a sex with a random person",
+      "setName" : "adult"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "раз в неделю в течении месяца выбрасывать мусор голым",
+      "ensecond" : "working 1 day on a garbage factory",
+      "rusecond" : "поработать один день на мусорном заводе",
+      "recid" : 45,
+      "id" : 45,
+      "enfirst" : "takeing out the trash naked once per week for 1 month",
+      "setName" : "adult"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "быть плохим любовником, но получать удовольствие при каждой половой связи",
+      "ensecond" : "be a good love but dont have fun in intimate relationship",
+      "rusecond" : "быть отличным любовником, но не получать от этого удовольствия",
+      "recid" : 46,
+      "id" : 46,
+      "enfirst" : "be a bad lover but have fun in intimate relationship",
+      "setName" : "adult"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "всю жизнь заниматься сексом только с одним человеком",
+      "ensecond" : "pick up strangers whole life",
+      "rusecond" : "всю жизнь вести распутный образ жизни",
+      "recid" : 47,
+      "id" : 47,
+      "enfirst" : "make sex with onle one person whole life",
+      "setName" : "adult"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "заняться сексом с богиней/богом любви и в дальнейшем разочаровываться во всех последующих сексуальных опытах",
+      "ensecond" : "be dissapointed in all sexual relationship but be sure that you will meet the special onr in future",
+      "rusecond" : "разочаровываться во всех сексуальных опытах, но знать, что в будущем кто-то сможет вас удовлетворить",
+      "recid" : 48,
+      "id" : 48,
+      "enfirst" : "make sex with the God/Goddes of love but be dissapointed in future",
+      "setName" : "adult"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "производить зачатие после каждой половой связи",
+      "ensecond" : "not being able to make a baby at all",
+      "rusecond" : "не иметь возможности зачать ребенка",
+      "recid" : 49,
+      "id" : 49,
+      "enfirst" : "make a baby after each sexual act",
+      "setName" : "adult"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "быть отличным семьянином, но плохим любовником",
+      "ensecond" : "be a good lover but a horrible family man",
+      "rusecond" : "быть отличным любовником, но отвратительным семьянином",
+      "recid" : 50,
+      "id" : 50,
+      "enfirst" : "be a good family man but a bad lover",
+      "setName" : "adult"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "оказаться посреди торгового комплекса голым, со связанными за спиной руками",
+      "ensecond" : "find yourself in the arena in spanish bullfight in front of a bull",
+      "rusecond" : "оказаться посреди арены испанской корриды перед огромным быком",
+      "recid" : 51,
+      "id" : 51,
+      "enfirst" : "find yourself in a shopping mall naked with hands tied behind your back",
+      "setName" : "adult"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "глотать раз в неделю разные предметы (бумага, ластик, кольцо)",
+      "ensecond" : "have sex once per week with vegetables",
+      "rusecond" : "раз в неделю заниматься сексом, используя овощи",
+      "recid" : 52,
+      "id" : 52,
+      "enfirst" : "swallow different things (eraser, scissors)",
+      "setName" : "adult"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "никогда не использовать контрацепцию",
+      "ensecond" : "never have sex",
+      "rusecond" : "никогда не заниматься сексом",
+      "recid" : 53,
+      "id" : 53,
+      "enfirst" : "never use contraceprion",
+      "setName" : "adult"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "всегда заниматься сексом менее минуты",
+      "ensecond" : "always have sex more than 2 hours",
+      "rusecond" : "всегда заниматься сексом более 2х часов",
+      "recid" : 54,
+      "id" : 54,
+      "enfirst" : "always have sex less than 1 minute",
+      "setName" : "adult"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "мастурбировать на людях",
+      "ensecond" : "be always horny and can't manage with that",
+      "rusecond" : "все время быть гипервозбужденным и не иметь возможности что-то с этим сделать",
+      "recid" : 55,
+      "id" : 55,
+      "enfirst" : "masturbate in public",
+      "setName" : "adult"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "весь контент в интернете превращается в порнографию",
+      "ensecond" : "all articles in the internet are written with sarcasm",
+      "rusecond" : "все статьи в интернете написаны с сарказмом",
+      "recid" : 56,
+      "id" : 56,
+      "enfirst" : "all content in the internet turn into pornography",
+      "setName" : "adult"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "иметь скучный секс, но никогда не уставать",
+      "ensecond" : "after sex you can't walk some hours but all neighbors are jealous uou",
+      "rusecond" : "после секса вы не можете ходить несколько часов, но вам завидуют все соседи",
+      "recid" : 57,
+      "id" : 57,
+      "enfirst" : "have boring sex but be never tired",
+      "setName" : "adult"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "застать родителей за занятием этим",
+      "ensecond" : "get caught masturbated",
+      "rusecond" : "быть застуканным во время мастурбации",
+      "recid" : 58,
+      "id" : 58,
+      "enfirst" : "catch parents having sex",
+      "setName" : "adult"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "заниматься сексом под музыку из мультфильмов",
+      "ensecond" : "your pets disturb you during your sexual act",
+      "rusecond" : "ваши домашние животные всегда вам мешают во время этого",
+      "recid" : 59,
+      "id" : 59,
+      "enfirst" : "have sex to cartoon music",
+      "setName" : "adult"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "заняться сексом в общественном транспорте",
+      "ensecond" : "have sex on the cemetry",
+      "rusecond" : "заняться сексом на кладбище",
+      "recid" : 60,
+      "id" : 60,
+      "enfirst" : "have sex in public transport",
+      "setName" : "adult"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "вы всегда пьяны",
+      "ensecond" : "you are always high",
+      "rusecond" : "вы всегда под кайфом",
+      "recid" : 61,
+      "id" : 61,
+      "enfirst" : "you are always drunk",
+      "setName" : "adult"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "Узнать что вам изменяют",
+      "ensecond" : "don't know about betrayal",
+      "rusecond" : "не догадываться об этом",
+      "recid" : 62,
+      "id" : 62,
+      "enfirst" : "know that your are cheated by your partner",
+      "setName" : "adult"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "Иметь детей инвалидов",
+      "ensecond" : "you are a person with disabilities",
+      "rusecond" : "вы сами инвалид",
+      "recid" : 63,
+      "id" : 63,
+      "enfirst" : "have kids with disabilities",
+      "setName" : "adult"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "умереть от аутоасфиксии",
+      "ensecond" : "die from masturbation and be found in a bathroom",
+      "rusecond" : "умереть во время мастурбации и быть найденным в туалете",
+      "recid" : 64,
+      "id" : 64,
+      "enfirst" : "die from autoerotic fatalities",
+      "setName" : "adult"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "лишиться девственности слишком рано",
+      "ensecond" : "lose virginity very late",
+      "rusecond" : "лишиться девственности слишком поздно",
+      "recid" : 65,
+      "id" : 65,
+      "enfirst" : "lose virginity very early",
+      "setName" : "adult"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "стать порнозвездой",
+      "ensecond" : "write  new Kama Sutra",
+      "rusecond" : "написать новую камасутру",
+      "recid" : 66,
+      "id" : 66,
+      "enfirst" : "become a porn star",
+      "setName" : "adult"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "быть изнасилованным(ой)",
+      "ensecond" : "be a cuckold",
+      "rusecond" : "добровольно отдать своего партнера \"в пользование\"",
+      "recid" : 67,
+      "id" : 67,
+      "enfirst" : "be raped",
+      "setName" : "adult"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "потерять своих родителей",
+      "ensecond" : "lose everybody besides parents",
+      "rusecond" : "потерять всех, кроме родителей",
+      "recid" : 68,
+      "id" : 68,
+      "enfirst" : "lose parents",
+      "setName" : "adult"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "сделать аборт",
+      "ensecond" : "give an unwanted child in the orphanage",
+      "rusecond" : "отдать нежеланного ребенка в детский дом",
+      "recid" : 69,
+      "id" : 69,
+      "enfirst" : "have an abortion",
+      "setName" : "adult"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "убить старика",
+      "ensecond" : "kill a baby",
+      "rusecond" : "убить младенца",
+      "recid" : 70,
+      "id" : 70,
+      "enfirst" : "kill an old man",
+      "setName" : "adult"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "продать друга в рабство",
+      "ensecond" : "lose an arm",
+      "rusecond" : "потерять руку",
+      "recid" : 71,
+      "id" : 71,
+      "enfirst" : "sell a friend into slavery",
+      "setName" : "adult"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "специально причинять себе боль",
+      "ensecond" : "be a schizo",
+      "rusecond" : "болеть шизофренией",
+      "recid" : 72,
+      "id" : 72,
+      "enfirst" : "get pleasure from being hurt",
+      "setName" : "adult"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "Попробовать свою/чужую сперму",
+      "ensecond" : "drink menstrual blood",
+      "rusecond" : "случайно попить месячных своих/чужих",
+      "recid" : 73,
+      "id" : 73,
+      "enfirst" : "taste your own or another person's sperm",
+      "setName" : "adult"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "уничтожить всех водных животных",
+      "ensecond" : "prohibit for ever all cosmetic research",
+      "rusecond" : "навсегда запретить все космические исследования",
+      "recid" : 74,
+      "id" : 74,
+      "enfirst" : "destroy all marine mammals",
+      "setName" : "adult"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "принимать душ каждый день в ледяной воде",
+      "ensecond" : "eat once per day",
+      "rusecond" : "есть только один раз в день",
+      "recid" : 75,
+      "id" : 75,
+      "enfirst" : "take a shower in freezing water everyday",
+      "setName" : "adult"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "посадить живодёра, который издевался над сотнями животных",
+      "ensecond" : "imprison a pedophile who raped twice",
+      "rusecond" : "посадить педофила, который сделал это всего дважды",
+      "recid" : 76,
+      "id" : 76,
+      "enfirst" : "inprison a knacker who has insulted more 100 animals",
+      "setName" : "adult"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "иметь приспособление, которое вам на 100% заменит другого человека в сексе",
+      "ensecond" : "force to have sex using hypnos",
+      "rusecond" : "принуждать людей к сексу с вами при помощи гипноза, но они могут быть против",
+      "recid" : 77,
+      "id" : 77,
+      "enfirst" : "have something that replace your sexual partner",
+      "setName" : "adult"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "всегда заниматься сексом толко в ролевых играх",
+      "ensecond" : "participated in orgy where 1000 people are",
+      "rusecond" : "однажды поучаствовать в оргии на 1000 человек",
+      "recid" : 78,
+      "id" : 78,
+      "enfirst" : "always have sex but only in role games",
+      "setName" : "adult"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "уметь удовлетворять себя орально",
+      "ensecond" : "have ability to have sex dreams whenever you want",
+      "rusecond" : "уметь видеть эротический сон, как только пожелаешь",
+      "recid" : 79,
+      "id" : 79,
+      "enfirst" : "have ability to satisfy yourself orally",
+      "setName" : "adult"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "вам никогда не нужно было бы оплачивать комунальные счета",
+      "ensecond" : "never pay for mortgage",
+      "rusecond" : "вам не нужно было бы оплачивать ипотеку",
+      "recid" : 80,
+      "id" : 80,
+      "enfirst" : "never pay for utility bills",
+      "setName" : "adult"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "учиться в самой крутой школе в другом городе и не иметь возможности приехать домой даже на каникулы",
+      "ensecond" : "study at the worst school but close to your ho,e",
+      "rusecond" : "учиться в самой плохой школе, но рядом с домом",
+      "recid" : 81,
+      "id" : 81,
+      "enfirst" : "study at the best school in another city but don't have ability to come home even for holidays",
+      "setName" : "school"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "иметь ящик стола, где можно надежно спрятать все что угодно так, что оно никогда не потеряется и будет на своем месте",
+      "ensecond" : "have a pocket where you can find lost things but you never know which thing you will get out from there",
+      "rusecond" : "иметь карман, в котором можно найти любую когда-либо потерянную вами вещь, но неизвестно, что вытащите в следующий раз",
+      "recid" : 82,
+      "id" : 82,
+      "enfirst" : "have a place where you can hide everything that will be there in a safety",
+      "setName" : "school"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "смеяться над любыми шутками, даже самыми дурацкими",
+      "ensecond" : "cry over any little thing",
+      "rusecond" : "плакать от любой печальной мелочи, даже самой незначительной",
+      "recid" : 83,
+      "id" : 83,
+      "enfirst" : "laugh at any jokes even stuped one",
+      "setName" : "school"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "уметь издавать смешные звуки",
+      "ensecond" : "have ability to blow big bubble gum bubbles",
+      "rusecond" : "уметь выдувать самый большой пузырь из жевательной резинки",
+      "recid" : 84,
+      "id" : 84,
+      "enfirst" : "have ability to make funny sounds",
+      "setName" : "school"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "чтобы в шкафу была дверь, через которую можно попасть в волшебный выдуманный мир",
+      "ensecond" : "that there is a door in a wardrobe to real places you visit everyday (school, univercity)",
+      "rusecond" : "чтобы в шкафу была дверь, через которую можно попасть в любые реальные места, которые вы обычно посещаете (школа, кружок, дом друга)",
+      "recid" : 85,
+      "id" : 85,
+      "enfirst" : "that there is a door in a wardrobe to the magic world",
+      "setName" : "school"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "один раз выиграть в лотерею огромный главный приз",
+      "ensecond" : "be a lucky man in many small things",
+      "rusecond" : "чтобы часто везло в мелочах",
+      "recid" : 86,
+      "id" : 86,
+      "enfirst" : "once won a lottery a big prize",
+      "setName" : "school"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "до ужаса бояться летать на самолете",
+      "ensecond" : "have a fear to use an undeground",
+      "rusecond" : "до ужаса бояться спускаться в метро",
+      "recid" : 87,
+      "id" : 87,
+      "enfirst" : "have a fear of flying in a plane",
+      "setName" : "school"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "обладать способностью есть сколько угодно конфет, и никогда не заболят зубы",
+      "ensecond" : "have ability to eat an ice cream even during winter and don't have a sore throat",
+      "rusecond" : "обладать способностью есть мороженое даже зимой, и никогда не заболит горло",
+      "recid" : 88,
+      "id" : 88,
+      "enfirst" : "have ability to eat sweets as much as you want and don't have tothache",
+      "setName" : "school"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "уметь в любых условиях добыть воду",
+      "ensecond" : "have ability to get fire iunder all conditions",
+      "rusecond" : "уметь в любых условиях добыть огонь",
+      "recid" : 89,
+      "id" : 89,
+      "enfirst" : "have ability to get fresh water under all conditions",
+      "setName" : "school"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "случайно прожигать взглядом дыры в предметах",
+      "ensecond" : "accidentally provoke a landslide by stamping your foot",
+      "rusecond" : "случайно вызывать маленький обвал, топнув ногой",
+      "recid" : 90,
+      "id" : 90,
+      "enfirst" : "accidenbtaly burn through things with a gaze",
+      "setName" : "school"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "ходить в самую знаменитую в мире школу",
+      "ensecond" : "go to most modern and technically provided school in the world",
+      "rusecond" : "ходить в самую современную и технически оснащенную школу",
+      "recid" : 91,
+      "id" : 91,
+      "enfirst" : "go to the most famous school in the world",
+      "setName" : "school"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "уметь менять цвет глаз",
+      "ensecond" : "have ability to change hair length",
+      "rusecond" : "уметь менять длину волос",
+      "recid" : 92,
+      "id" : 92,
+      "enfirst" : "have ability to change eye color",
+      "setName" : "school"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "уметь превращать обычную вату в сладкую",
+      "ensecond" : "have ability to turn fresh water into sparkling water",
+      "rusecond" : "уметь превращать воду из под крана в газировку",
+      "recid" : 93,
+      "id" : 93,
+      "enfirst" : "have ability to turn regular cotton into cotton candy",
+      "setName" : "school"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "взглядом затачивать карандаши",
+      "ensecond" : "свистом приманивать к себе нужные затерявшиеся в завалах стола тетради",
+      "rusecond" : "свистом приманивать к себе нужные затерявшиеся в завалах стола тетради",
+      "recid" : 94,
+      "id" : 94,
+      "enfirst" : "sharpen pencils with a gaze",
+      "setName" : "school"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "уметь разговаривать с животными",
+      "ensecond" : "have ability to read people's thoughts",
+      "rusecond" : "уметь читать мысли людей",
+      "recid" : 95,
+      "id" : 95,
+      "enfirst" : "have ability to talk with animals",
+      "setName" : "school"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "провести день в компании реального человека, которым восхищаешься (актер, музыкант, спортсмен)",
+      "ensecond" : "spend a day with a character from a film, book",
+      "rusecond" : "провести день в компании выдуманного героя (книги, мультика, комикса)",
+      "recid" : 96,
+      "id" : 96,
+      "enfirst" : "spend a day with famous person",
+      "setName" : "school"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "чтобы в вашем городе был самый большой и известный зоопарк",
+      "ensecond" : "there is a huge and popular amusement park in your city",
+      "rusecond" : "чтобы в вашем городе был самый современный и крутой парк аттракционов",
+      "recid" : 97,
+      "id" : 97,
+      "enfirst" : "there is a big and popular zoo in your city",
+      "setName" : "school"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "постоянно обливаться горячим чаем, когда пьете",
+      "ensecond" : "always bite your tongue when you eat",
+      "rusecond" : "постоянно прикусывать язык, когда кушаете",
+      "recid" : 98,
+      "id" : 98,
+      "enfirst" : "always pour over tea when you drink",
+      "setName" : "school"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "учиться всего три дня в неделю, но потратить на обучение 20 лет",
+      "ensecond" : "always live at school but spend 6 years over study",
+      "rusecond" : "постоянно жить в школе, учась и прерываясь только на еду и сон, и потратить на обучение 6 лет",
+      "recid" : 99,
+      "id" : 99,
+      "enfirst" : "study only 3 days per week but spend 20 years over study",
+      "setName" : "school"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "быть отличником, прилагая для этого много усилий и не имея свободного времени",
+      "ensecond" : "be C-student but have a lot of free time",
+      "rusecond" : "быть троечником, но проводить время весело и беззаботно",
+      "recid" : 100,
+      "id" : 100,
+      "enfirst" : "be an exellent student but make a lot of efforts and don't have free time",
+      "setName" : "school"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "уметь ускорять время, когда заняты чем-то скучным и неинтересным",
+      "ensecond" : "be able to slow down time when you have to accomplish something difficult",
+      "rusecond" : "уметь замедлить время, когда нужно сделать что-то сложное и важное, требующее времени",
+      "recid" : 101,
+      "id" : 101,
+      "enfirst" : "be able to speed time up when you are bored",
+      "setName" : "school"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "учиться каждый день без выходных, начиная с 6 утра, но всего по 3 урока",
+      "ensecond" : "study 5 days a week from 12 but have 7 lessons per day",
+      "rusecond" : "учиться 5 дней в неделю, начиная с 12, но по 7 уроков",
+      "recid" : 102,
+      "id" : 102,
+      "enfirst" : "study every day starting from 6 am but have only 3 lessons per day",
+      "setName" : "school"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "уметь пальцем кипятить воду",
+      "ensecond" : "be able to turn water into ice by a finger",
+      "rusecond" : "уметь пальцем превратить воду в лед",
+      "recid" : 103,
+      "id" : 103,
+      "enfirst" : "be able to heat water by a finger",
+      "setName" : "school"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "ходить по лужам, и чтобы не промокали сапоги",
+      "ensecond" : "walk in the rain but your hat is not wet",
+      "rusecond" : "ходить под дождем и чтобы не промокала шапка",
+      "recid" : 104,
+      "id" : 104,
+      "enfirst" : "walk in the puddles but your legs are not wet",
+      "setName" : "school"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "чтобы не нужно было мыть волосы, а они бы всегда были чистыми",
+      "ensecond" : "be able not to cut your nails",
+      "rusecond" : "чтобы не нужно было стричь ногти, а они бы всегда были аккуратные и ухоженные",
+      "recid" : 105,
+      "id" : 105,
+      "enfirst" : "be able not to wash your hair",
+      "setName" : "school"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "иметь плащ неведимку, но быть самым медленным",
+      "ensecond" : "be the fastest but visible",
+      "rusecond" : "быть супербыстрым, но при этом очень заметным",
+      "recid" : 106,
+      "id" : 106,
+      "enfirst" : "have an invisibility cloak but be the slowest in the world",
+      "setName" : "school"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "работать тестировщиком новых наборов игры Лего",
+      "ensecond" : "work as a creator of railway models",
+      "rusecond" : "работать создателем макетов железной дороги",
+      "recid" : 107,
+      "id" : 107,
+      "enfirst" : "be a tester of new Lego games",
+      "setName" : "school"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "быстро запоминать сложные вопросы для контрольной, но забывать всё как только сдадите",
+      "ensecond" : "spend a lot of time to memorize information but after test you still remember half of information for long period",
+      "rusecond" : "тратить очень много времени на подготовку к важной теме, но надолго запоминать 50% изученного",
+      "recid" : 108,
+      "id" : 108,
+      "enfirst" : "memorize rapidly but forget after passing a test",
+      "setName" : "school"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "чтобы родители отводили вас в школу, пока вы её не закончите",
+      "ensecond" : "be a teacher's pet that nobody likes",
+      "rusecond" : "быть любимцем учителей, которого никто не любит",
+      "recid" : 109,
+      "id" : 109,
+      "enfirst" : "your parents take you to the school till you graduate from",
+      "setName" : "school"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "всегда сильно краснеть в присутствии противоположного пола",
+      "ensecond" : "sweat badly in presense of the other sex",
+      "rusecond" : "очень сильно потеть в присутствии противоположного пола",
+      "recid" : 110,
+      "id" : 110,
+      "enfirst" : "blush in front of the other sex",
+      "setName" : "school"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "тусоваться с пиратами",
+      "ensecond" : "be from ninja's clan",
+      "rusecond" : "быть в клане ниндзя",
+      "recid" : 111,
+      "id" : 111,
+      "enfirst" : "hang out woth pirates",
+      "setName" : "school"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "иметь классных друзей в школе, но потерять их и перестать общаться после выпуска",
+      "ensecond" : "don't have friends at school but be sure that after school you'll get one",
+      "rusecond" : "ни с кем в школе не дружить, при условии, что после выпуска у вас 100% появятся друзья",
+      "recid" : 112,
+      "id" : 112,
+      "enfirst" : "have good friends at school but stop to communicate with thwm after school",
+      "setName" : "school"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "проживать каждый день, но не помнить предыдущий",
+      "ensecond" : "do everything unconsciously but remember everything",
+      "rusecond" : "делать каждый день всё неосознанно, но вспоминать абсолютно всё на следующий день",
+      "recid" : 113,
+      "id" : 113,
+      "enfirst" : "live everyday but don't remember the last one",
+      "setName" : "school"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "быть карликом",
+      "ensecond" : "be giant",
+      "rusecond" : "быть великаном",
+      "recid" : 114,
+      "id" : 114,
+      "enfirst" : "be dwarf",
+      "setName" : "school"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "уметь прекрасно рисовать, но быть немым",
+      "ensecond" : "sing perfect but be blind",
+      "rusecond" : "очень хорошо петь, но быть слепым",
+      "recid" : 115,
+      "id" : 115,
+      "enfirst" : "paint masterpieces but be mute",
+      "setName" : "school"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "читать книги только по школьной программе",
+      "ensecond" : "never read books from a school plan",
+      "rusecond" : "никогда и не при каких условиях не читать книги, заданные в школе",
+      "recid" : 116,
+      "id" : 116,
+      "enfirst" : "read books following a  school plan",
+      "setName" : "school"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "быть человеком, у которого все списывают, но учителя думают, что списали вы",
+      "ensecond" : "always answer randomly but you can get only A or F-mark",
+      "rusecond" : "всегда давать случайные ответы на тесты, с условием, что оценка будет либо 5 либо 2",
+      "recid" : 117,
+      "id" : 117,
+      "enfirst" : "be a man that everybody cheats off you but teachers think that you have cheated off",
+      "setName" : "school"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "хорошо знать физику и математику, но неграмотно писать и разговаривать",
+      "ensecond" : "be good at languages and literature but can't solve any puzzles",
+      "rusecond" : "быть подкованным в русском и литературе, но не уметь решать даже элементарные примеры",
+      "recid" : 118,
+      "id" : 118,
+      "enfirst" : "be good at physics and math, but write and spell with mistakes",
+      "setName" : "school"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "менять школу каждую неделю",
+      "ensecond" : "be outcast in class during your school years",
+      "rusecond" : "быть изгоем в классе всё время обучения",
+      "recid" : 119,
+      "id" : 119,
+      "enfirst" : "change school each week",
+      "setName" : "school"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "быть Богом грозы и молнии, но никогда не спускаться на землю",
+      "ensecond" : "be the god of seas and oceans but spend whole life under water",
+      "rusecond" : "быть Богом морей и океанов, но всю жизнь провести под водой",
+      "recid" : 120,
+      "id" : 120,
+      "enfirst" : "be the god of thunder and lightning but never come down to earth",
+      "setName" : "school"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "всегда проигрывать во всех играх",
+      "ensecond" : "never play games",
+      "rusecond" : "никогда не играть в игры",
+      "recid" : 121,
+      "id" : 121,
+      "enfirst" : "always lose all games and competitions",
+      "setName" : "school"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "каждый день просыпаться с разной внешностью и полом",
+      "ensecond" : "everyday live animal's life",
+      "rusecond" : "каждый день проживать жизнь случайного животного",
+      "recid" : 122,
+      "id" : 122,
+      "enfirst" : "everyday wake up with different appereance and gender",
+      "setName" : "school"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "есть обычную манную кашу дважды в день",
+      "ensecond" : "never taste a strawberry",
+      "rusecond" : "никогда не попробовать клубнику",
+      "recid" : 123,
+      "id" : 123,
+      "enfirst" : "eat semolina porridge twice a day",
+      "setName" : "school"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "иметь сестру/брата-близнеца",
+      "ensecond" : "live your day twice",
+      "rusecond" : "проживать каждый день дважды",
+      "recid" : 124,
+      "id" : 124,
+      "enfirst" : "have siblings",
+      "setName" : "school"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "всю жизнь носить одежду, которую выбирают за тебя",
+      "ensecond" : "never listen to music",
+      "rusecond" : "никогда не слушать музыку",
+      "recid" : 125,
+      "id" : 125,
+      "enfirst" : "whole your life wear clothes that somebody have chosen for you",
+      "setName" : "school"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "никогда не видеть снов",
+      "ensecond" : "never meet cats and dogs in your life",
+      "rusecond" : "никогда не встречать в жизни кошек и собак",
+      "recid" : 126,
+      "id" : 126,
+      "enfirst" : "never see dreams",
+      "setName" : "school"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "быть дальтоником",
+      "ensecond" : "have a burr and a lisp",
+      "rusecond" : "картавить и шепелявить",
+      "recid" : 127,
+      "id" : 127,
+      "enfirst" : "have color blindness",
+      "setName" : "school"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "быть единственным представителем своего пола на планете",
+      "ensecond" : "be the last man on the earth",
+      "rusecond" : "быть последним человеком на Земле",
+      "recid" : 128,
+      "id" : 128,
+      "enfirst" : "be the one representative of your gender",
+      "setName" : "school"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "провести целый год в лесу без связи с внешним миром",
+      "ensecond" : "spend whole year in the sea without any connections with the world",
+      "rusecond" : "провести целый год в море без связи с внешним миром",
+      "recid" : 129,
+      "id" : 129,
+      "enfirst" : "spend whole year in the forest without any connections with the world",
+      "setName" : "school"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "чтобы у вас шел пар из ушей от напряжения",
+      "ensecond" : "swell up like a ball whan you are angry",
+      "rusecond" : "раздуваться, когда злитесь",
+      "recid" : 130,
+      "id" : 130,
+      "enfirst" : "have steam coming out of your ears because of stress",
+      "setName" : "school"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "чтобы дома на неделю отключили воду",
+      "ensecond" : "the internet will be cut off at home for a week",
+      "rusecond" : "чтобы ваш дом на неделю отключили интернет",
+      "recid" : 131,
+      "id" : 131,
+      "enfirst" : "water will be cut off at home for one week",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "создать нечто великое, но с условием, что признание за это получит другой человек",
+      "ensecond" : "go down in history for doing nothing",
+      "rusecond" : "войти в историю за то, чего вы не совершали",
+      "recid" : 132,
+      "id" : 132,
+      "enfirst" : "make something great but all awards will belong to another person",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "на берегу моря найти бутылку с посланием из прошлого",
+      "ensecond" : "find a case in the forest with $ 1000 inside",
+      "rusecond" : "найти в лесу кейс, в котором лежит 1000$",
+      "recid" : 133,
+      "id" : 133,
+      "enfirst" : "by the seaside find a bottle with a letter from the past",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "не пользоваться интернетом 5 лет",
+      "ensecond" : "don't leave your home for 2 years",
+      "rusecond" : "2 года не выходить из дома",
+      "recid" : 134,
+      "id" : 134,
+      "enfirst" : "don't use the net for 5 years",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "на один день переселиться в противоположный пол",
+      "ensecond" : "be able to turn into different creatures except the other sex",
+      "rusecond" : "получить возможность перемещаться в любое существо на планете, кроме противоположного пола",
+      "recid" : 135,
+      "id" : 135,
+      "enfirst" : "switch your body with the other sex",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "стать в чем-то лучшим в мире (спорт, творчество, наука), но при этом потерять слух",
+      "ensecond" : "be healthy but know that you never go down in history",
+      "rusecond" : "быть здоровым, но знать, что вы никогда не сделаете ничего выдающегося",
+      "recid" : 136,
+      "id" : 136,
+      "enfirst" : "become the best at something in the world bit lose your hearing",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "высыпаться за 3 часа",
+      "ensecond" : "be  in a good physical form without training",
+      "rusecond" : "всегда быть в отличной спортивной форме без тренировок",
+      "recid" : 137,
+      "id" : 137,
+      "enfirst" : "get enough sleep in 3 hours",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "никогда не праздновать Новый год",
+      "ensecond" : "never celebrate your birthday",
+      "rusecond" : "никогда не праздновать свой день рождения",
+      "recid" : 138,
+      "id" : 138,
+      "enfirst" : "never celebrate a New year",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "иметь много хороших друзей",
+      "ensecond" : "have one best friend",
+      "rusecond" : "иметь одного лучшего друга",
+      "recid" : 139,
+      "id" : 139,
+      "enfirst" : "have a lot of good friends",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "нарисовать величайшую в мире картину",
+      "ensecond" : "create the most powerful weapon",
+      "rusecond" : "создать сильнейшее в мире оружие",
+      "recid" : 140,
+      "id" : 140,
+      "enfirst" : "paint the greatest picture in the world",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "мир во всем мире",
+      "ensecond" : "cure from all diseases from your birth",
+      "rusecond" : "лекарство от всех болезней, которой каждому прививают при рождении",
+      "recid" : 141,
+      "id" : 141,
+      "enfirst" : "world peace",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "на протяжении 3 лет получать 10 000$",
+      "ensecond" : "get 200 000$ one time",
+      "rusecond" : "единоразово получить 200 000$",
+      "recid" : 142,
+      "id" : 142,
+      "enfirst" : "get 10 000$ for 3 years",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "шутить только баянами",
+      "ensecond" : "never joke",
+      "rusecond" : "не шутить никогда",
+      "recid" : 143,
+      "id" : 143,
+      "enfirst" : "use only bad jokes",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "на любой вопрос отвечать только правду",
+      "ensecond" : "be a pathological liar",
+      "rusecond" : "быть патологическим лгуном",
+      "recid" : 144,
+      "id" : 144,
+      "enfirst" : "always say the truth",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "переезжать каждый год",
+      "ensecond" : "live at one place fpr whole lofe",
+      "rusecond" : "всю жизнь прожить в одном месте",
+      "recid" : 145,
+      "id" : 145,
+      "enfirst" : "move every year",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "быть лучшим в одном виде деятельности по выбору",
+      "ensecond" : "be good (mediocre) at 10 things",
+      "rusecond" : "очень хорошо делать 10 видов деятельности по выбору",
+      "recid" : 146,
+      "id" : 146,
+      "enfirst" : "be the best at one thing you like more",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "переместиться в прошлое, в любое время по вашему выбору",
+      "ensecond" : "move into future any time you would like",
+      "rusecond" : "переместиться в будущее в любое время по вашему выбору",
+      "recid" : 147,
+      "id" : 147,
+      "enfirst" : "move into past in any time you would like",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "пойти на свидание \"вслепую\" в ресторан, где всем завязывают глаза",
+      "ensecond" : "have a blind date at the restaurant where it is prohibited to make sounds",
+      "rusecond" : "пойти на свидание \"вслепую\" в ресторан, где запрещено общаться и издавать любые звуки",
+      "recid" : 148,
+      "id" : 148,
+      "enfirst" : "have a blind date at the restaurant with blindfolded",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "всю жизнь жить с родителями",
+      "ensecond" : "live alone whole life",
+      "rusecond" : "всю жизнь жить в полном одиночестве",
+      "recid" : 149,
+      "id" : 149,
+      "enfirst" : "live  with parents whole life",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "остаться на необитаемом острове с шизофреником, у которого каждый день меняется личность",
+      "ensecond" : "stay on a uninhabited island with a paranoiac who has persecutory delusion",
+      "rusecond" : "остаться на необитаемом острове с параноиком с манией преследования",
+      "recid" : 150,
+      "id" : 150,
+      "enfirst" : "stay on an uninhabited island with a schizo who has many personalities",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "знать всю жизнь наперед и не иметь возможности что-либо изменить",
+      "ensecond" : "forget everything everyday",
+      "rusecond" : "каждый день все забывать",
+      "recid" : 151,
+      "id" : 151,
+      "enfirst" : "know whole life ahead and be not able to change anything",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "встретить лучшего друга до гроба",
+      "ensecond" : "meet a real love",
+      "rusecond" : "встретить настоящую любовь",
+      "recid" : 152,
+      "id" : 152,
+      "enfirst" : "meet best friend",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "чтобы вам отрубили руку",
+      "ensecond" : "you cut a head of unknown man",
+      "rusecond" : "лично отрубить голову человеку, притом что вы абсолютно ничего о нем не знаете",
+      "recid" : 153,
+      "id" : 153,
+      "enfirst" : "your hand will be chopped off",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "быть настоящим магом, но скрывать свои способности",
+      "ensecond" : "be mediocre but famous juggler",
+      "rusecond" : "быть посредственным, но знаменитым фокусником",
+      "recid" : 154,
+      "id" : 154,
+      "enfirst" : "be a real magician but hide your power",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "жить с чересчур завышенной самооценкой",
+      "ensecond" : "live with a low self-esteem",
+      "rusecond" : "жить с чересчур заниженной самооценкой",
+      "recid" : 155,
+      "id" : 155,
+      "enfirst" : "live with an ego boost",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "уметь возвращаться во времени",
+      "ensecond" : "be able to stop the time",
+      "rusecond" : "уметь останавливать время",
+      "recid" : 156,
+      "id" : 156,
+      "enfirst" : "be able to back in time",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "постоянно попадать в неприятные ситуации",
+      "ensecond" : "live without any adventures",
+      "rusecond" : "жить вообще без приключений",
+      "recid" : 157,
+      "id" : 157,
+      "enfirst" : "constantly find yourself in unpleasant situations",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "жить в самом жарком месте на Земле",
+      "ensecond" : "live in the coldest place in the world",
+      "rusecond" : "жить в самом холодном месте на земле",
+      "recid" : 158,
+      "id" : 158,
+      "enfirst" : "live in the hottest place in the world",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "на всё соглашаться",
+      "ensecond" : "give up everything",
+      "rusecond" : "от всего отказываться",
+      "recid" : 159,
+      "id" : 159,
+      "enfirst" : "take everything",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "испытать на себе новый препарат с неизвестными побочными действиями",
+      "ensecond" : "suffer from attacks of diarrhea throughout the year",
+      "rusecond" : "в течении года страдать приступами диареи",
+      "recid" : 160,
+      "id" : 160,
+      "enfirst" : "experience a drug with unknown side effects",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "жить с человеком, который вас очень любит, а вы относитесь к нему равнодушно",
+      "ensecond" : "live with a person who you love so much but he/she doesn't",
+      "rusecond" : "жить с человеком, которого вы очень любите, а он относится к вам равнодушно",
+      "recid" : 161,
+      "id" : 161,
+      "enfirst" : "live with a person who love you but you don't",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "знать дату своей смерти",
+      "ensecond" : "know all details of your death",
+      "rusecond" : "знать обстоятельства своей смерти",
+      "recid" : 162,
+      "id" : 162,
+      "enfirst" : "know the date of your death",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "получать удовольствие от жизни, но ничего не оставить после себя",
+      "ensecond" : "be permanently depressed but become the heritage of humanity",
+      "rusecond" : "пребывать в вечной депрессии, но стать достоянием человечества",
+      "recid" : 163,
+      "id" : 163,
+      "enfirst" : "be satisfied with your life but don't leave anything after yourself",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "всегда говорить то, что у вас на уме",
+      "ensecond" : "be mute",
+      "rusecond" : "быть немым",
+      "recid" : 164,
+      "id" : 164,
+      "enfirst" : "always say what is on your mind",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "уметь телепортироваться",
+      "ensecond" : "can fly",
+      "rusecond" : "уметь летать",
+      "recid" : 165,
+      "id" : 165,
+      "enfirst" : "be able to teleport",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "никогда в жизни не прочесть ни одной книги",
+      "ensecond" : "never watch a film",
+      "rusecond" : "никогда в жизни не посмотреть ни одного фильма",
+      "recid" : 166,
+      "id" : 166,
+      "enfirst" : "never read a book",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "быть преступником, но чтобы все вокруг считали вас героем",
+      "ensecond" : "be a hero but everybody considers you as a criminal",
+      "rusecond" : "быть героем, но чтобы все вокруг считали вас преступником",
+      "recid" : 167,
+      "id" : 167,
+      "enfirst" : "be a criminal but  everybody consideres you as a hero",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "быть полностью параллизованым 3 года и потом полностью восстановиться",
+      "ensecond" : "be in a coma for 10 years but will be recovered at all",
+      "rusecond" : "пролежать в коме 10 лет и потом полностью восстановиться",
+      "recid" : 168,
+      "id" : 168,
+      "enfirst" : "be paralyzed for 3 years but will be recovered at all",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "гиперэмоционально и слишком сильно переживать из-за каждого пустяка",
+      "ensecond" : "be hard-hearted",
+      "rusecond" : "быть бесчуственным с каменным сердцем",
+      "recid" : 169,
+      "id" : 169,
+      "enfirst" : "got an overemotional about everything",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "устроивать только разрушительные вечеринки",
+      "ensecond" : "never participate in parties",
+      "rusecond" : "никогда не ходить на вечеринки",
+      "recid" : 170,
+      "id" : 170,
+      "enfirst" : "organize only reckless partied",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "сидеть на кухне с друзьями и болтать",
+      "ensecond" : "hang out in the club whole night",
+      "rusecond" : "тусоваться в клубе всю ночь",
+      "recid" : 171,
+      "id" : 171,
+      "enfirst" : "sit and chat with your friends in the kitchen",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "не пить ничего кроме боярышника",
+      "ensecond" : "don't drink at all",
+      "rusecond" : "не пить вообще",
+      "recid" : 172,
+      "id" : 172,
+      "enfirst" : "don't drink anything but ethyl alcohol",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "танцевать на столе",
+      "ensecond" : "sleep in the salad",
+      "rusecond" : "уснуть лицом в салате",
+      "recid" : 173,
+      "id" : 173,
+      "enfirst" : "dance on the table",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "набить случайную татуировку на всю спину",
+      "ensecond" : "pierce your nipples",
+      "rusecond" : "проколоть оба соска",
+      "recid" : 174,
+      "id" : 174,
+      "enfirst" : "get a random tatoo over your back",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "спать всю жизнь с родителями",
+      "ensecond" : "sleep with cheap sluts every day",
+      "rusecond" : "спать каждый день с дешевыми проститутками",
+      "recid" : 175,
+      "id" : 175,
+      "enfirst" : "sleep with your parents all life",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "быть бессмертным, но все время больным",
+      "ensecond" : "never be sick but die early",
+      "rusecond" : "никогда не болеть, но рано умереть",
+      "recid" : 176,
+      "id" : 176,
+      "enfirst" : "be immortal but sick",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "уметь перемещаться в пространстве, но в совершенно случайное место на планете",
+      "ensecond" : "be able to read random people's minds",
+      "rusecond" : "уметь читать мысли, но только случайного человека",
+      "recid" : 177,
+      "id" : 177,
+      "enfirst" : "be able to move in space, but in a completely random place on the planet",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "никогда не иметь детей",
+      "ensecond" : "have 10 kids",
+      "rusecond" : "иметь 10 детей",
+      "recid" : 178,
+      "id" : 178,
+      "enfirst" : "never have kids",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "есть только фрукты и овощи, но выращивать их самому",
+      "ensecond" : "eat only meat but raise and kill them on your own",
+      "rusecond" : "есть только мясо, но разводить животных и убивать самому",
+      "recid" : 179,
+      "id" : 179,
+      "enfirst" : "eat only fruits and vegetables but grow them on your own",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "носить удобную одежду, но не видеть как она выглядит",
+      "ensecond" : "always wear dirty shoes",
+      "rusecond" : "носить всегда грязную обувь",
+      "recid" : 180,
+      "id" : 180,
+      "enfirst" : "wear only comfortable clothes but don't see how it looks like",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "стать зомби на заре зомби-апокалипсиса",
+      "ensecond" : "be lost survivor after zombie-apocalypse",
+      "rusecond" : "остаться единственным выжившим после зомби-апокалипсиса",
+      "recid" : 181,
+      "id" : 181,
+      "enfirst" : "turn into vicious zombie at the dawn of zombie apocalypse",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "чтобы все ваши пять чувств ухудшились на 50%",
+      "ensecond" : "lose one of your 5 sensory organs",
+      "rusecond" : "полностью потерять одно из пяти чувств",
+      "recid" : 182,
+      "id" : 182,
+      "enfirst" : "yours five senses lost 50% capacity",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "мир, полный религиозного разнообразия",
+      "ensecond" : "the world without religion",
+      "rusecond" : "мир без религии",
+      "recid" : 183,
+      "id" : 183,
+      "enfirst" : "the world with religion variety",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "всю жизнь провести за компьютером",
+      "ensecond" : "never sit in front of a laptop",
+      "rusecond" : "никогда не подходить к компьютеру",
+      "recid" : 184,
+      "id" : 184,
+      "enfirst" : "spend all your life in front of the laptop",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "получить ответ на один абсолютно любой вопрос",
+      "ensecond" : "get a chance to read people's mind for a month",
+      "rusecond" : "получить возможность в течении месяца читать чужие мысли",
+      "recid" : 185,
+      "id" : 185,
+      "enfirst" : "get an answer for one question",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "чтобы вам всегда было 20",
+      "ensecond" : "you are always 30 years old",
+      "rusecond" : "чтобы вам всегда было 30",
+      "recid" : 186,
+      "id" : 186,
+      "enfirst" : "you are always 20 years old",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "иметь феноменальную память",
+      "ensecond" : "learn in 10 times faster than you do now",
+      "rusecond" : "обучаться всему в 10 раз быстрее",
+      "recid" : 187,
+      "id" : 187,
+      "enfirst" : "have an amazing memory",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "пригласить трех разных девушек/парней на свидание и поучить отказ",
+      "ensecond" : "be afraid of refusal therefore never ask anybody on a date",
+      "rusecond" : "бояться отказа и ни разу не пригласить на свидание обьект обожания",
+      "recid" : 188,
+      "id" : 188,
+      "enfirst" : "ask 3 different girls or boys on a date and get a refusal",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "знать все языки мира, но не иметь читать и не иметь возможности обучиться",
+      "ensecond" : "know all world languages but be mute",
+      "rusecond" : "знать все языки мира, но быть немым",
+      "recid" : 189,
+      "id" : 189,
+      "enfirst" : "know all world languages but can't read and be not able to learn",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "чтобы никто не пришел на вашу свадьбу",
+      "ensecond" : "that no one comes to your marriage",
+      "rusecond" : "чтобы никто не пришел на ваши похороны",
+      "recid" : 190,
+      "id" : 190,
+      "enfirst" : "that no one comes to your funeral",
+      "setName" : "demo"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "Иметь пожизненную скидку 70% на пиццу с ананасами и луком",
+      "ensecond" : "Renting each electric scooter is 50% cheaper for you\\, but your name is Oleg\\, even if you are a girl",
+      "rusecond" : "Иметь такую же скидку на роллы с огурцом\n",
+      "recid" : 191,
+      "id" : 202,
+      "enfirst" : "Each electric scooter you rent is always charged at 50% and rides only at 50% of the possible speed",
+      "setName" : "laugh"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "Иметь хороший достаток\\, но заниматься любовью только за деньги",
+      "ensecond" : "Barely make ends meet\\, but be popular with the opposite sex",
+      "rusecond" : "Едва сводить концы с концами\\, но пользоваться популярностью у противоположного пола",
+      "recid" : 192,
+      "id" : 191,
+      "enfirst" : "Have a good income\\, but make love only for money",
+      "setName" : "laugh"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "Новая эффективная вакцина от захватившего весь мир вируса снижает ваш интеллект на 10%",
+      "ensecond" : "A new effective vaccine against a virus that has taken over the whole world reduces libido by 40%",
+      "rusecond" : "Новая эффективная вакцина от захватившего весь мир вируса на 40% снижает либидо",
+      "recid" : 193,
+      "id" : 192,
+      "enfirst" : "A new effective vaccine against a virus that has taken over the whole world reduces your intelligence by 10%",
+      "setName" : "laugh"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "Все травмы и жизненные неприятности равномерно распределены между вами и вашими друзьями",
+      "ensecond" : "All injuries and troubles always happen only to you\\, but friends pay you excellent insurance every year",
+      "rusecond" : "Все травмы и неприятности всегда происходят только с вами\\, но друзья ежегодно оплачивают вам отличную страховку",
+      "recid" : 194,
+      "id" : 194,
+      "enfirst" : "All injuries and life troubles are evenly distributed between you and your friends",
+      "setName" : "laugh"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "Каждая только что сваренная вами сосиска или картофелина всегда будет падать из кастрюли на пол",
+      "ensecond" : "You will always have ready-made food delivered to you from establishments\\, but you will know that the courier ate a little from your plate on the way",
+      "rusecond" : "Вам всегда будут доставлять готовую еду из заведений\\, но вы будете знать\\, что курьер съел немного из вашей тарелки по дороге",
+      "recid" : 195,
+      "id" : 195,
+      "enfirst" : "Every sausage or potato you have just cooked will always fall from the pan to the floor",
+      "setName" : "laugh"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "Вы всю жизнь будете ездить только на общественном транспорте\\, но вам всегда будет попадаться счастливый билетик (перед смертью вы передадите родственникам дорогостоящую коллекцию)",
+      "ensecond" : "You will spend your whole life driving a taxi with an attractive and charming driver\\, but every trip you will be afraid for your life on the road",
+      "rusecond" : "Вы всю жизнь будете ездить на такси с привлекательным и обаятельным водителем\\, но каждую поездку будете бояться за свою жизнь в дороге",
+      "recid" : 196,
+      "id" : 196,
+      "enfirst" : "You will only travel by public transport all your life\\, but you will always come across a lucky ticket (before you die\\, you will give your relatives an expensive collection)",
+      "setName" : "laugh"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "Вас назначили тренером сборной России по футболу. Вы уверены\\, что через год приведете команду к сокрушительным поражениям и уйдете с позором\\, но вам выплатят круглую сумму",
+      "ensecond" : "Any responsibility for the success of the national football team is removed from you\\, but instead of paying for coaching\\, you are offered to work for an idea\\, an opportunity to see the world and attend major sporting events",
+      "rusecond" : "С вас снимается любая ответственность за успехи сборной по футболу\\, но вместо оплаты за тренерство вам предлагают работать за идею\\, возможность посмотреть мир и посетить крупнейшие спортивные мероприятия",
+      "recid" : 197,
+      "id" : 197,
+      "enfirst" : "You have been appointed coach of the Russian national football team. You are sure that in a year you will lead the team to crushing defeats and leave in disgrace\\, but you will be paid a round sum",
+      "setName" : "laugh"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "У вас ни с того ни с сего появляется свой личный круглогодичный бассейн\\, но в нем постоянно плавает Джиган. Можете наслаждаться плаванием только в его компании",
+      "ensecond" : "You get a personal S-class car\\, but Morgenstern always sits in the passenger seat and talks via video link",
+      "rusecond" : "У вас появляется личный автомобиль S-класса\\, но на пассажирском сиденье всегда сидит Моргенштерн и говорит по видеосвязи",
+      "recid" : 198,
+      "id" : 198,
+      "enfirst" : "For no reason at all\\, you have your own personal year-round pool\\, but a Djigan constantly swims in it. You can enjoy swimming only in his company",
+      "setName" : "laugh"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "Ваше очень личное видео украли хакеры. У вас нет денег на выкуп\\, и хакеры отправляют его половине ваших случайно выбранных контактов",
+      "ensecond" : "Your personal video was stolen by hackers\\, and you warn all people from your notebook about what they will soon see\\, but the hackers forget to send the video",
+      "rusecond" : "Ваше личное видео украли хакеры\\, и вы предупреждаете всех людей из записной книжки о том\\, что им скоро предстоит увидеть\\, но хакеры забывают разослать видео",
+      "recid" : 199,
+      "id" : 199,
+      "enfirst" : "Your very personal video was stolen by hackers. You don't have money for a ransom\\, and hackers send it to half of your randomly selected contacts",
+      "setName" : "laugh"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "Компания Apple каждый год дарит вам новую модель телефона\\, но на обоях всегда радуга\\, и их нельзя поменять",
+      "ensecond" : "Samsung gives you a new phone model every year\\, but it always takes photos and videos with a flash and an incredibly loud shutter sound",
+      "rusecond" : "Компания Samsung каждый год дарит вам новую модель телефона\\, но он всегда снимает фото и видео со вспышкой и невероятно громким звуком затвора",
+      "recid" : 200,
+      "id" : 200,
+      "enfirst" : "Apple gives you a new phone model every year\\, but there is always a rainbow on the wallpaper\\, and they can't be changed",
+      "setName" : "laugh"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "Вам постоянно приходится наблюдать за работой вашего робота-пылесоса\\, потому что он то и дело где-то застревает",
+      "ensecond" : "Your robot vacuum cleaner perfectly passes all obstacles\\, but starts cleaning only from 03 to 05 o'clock in the morning",
+      "rusecond" : "Ваш робот-пылесос идеально проходит все препятствия\\, но начинает уборку только с 03 до 05 часов ночи",
+      "recid" : 201,
+      "id" : 201,
+      "enfirst" : "You constantly have to watch the work of your robot vacuum cleaner\\, because it gets stuck somewhere every now and then",
+      "setName" : "laugh"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "Каждый арендованный вами электросамокат всегда заряжен на 50% и едет только на 50% от возможной скорости ",
+      "ensecond" : " Renting each electric scooter is 50% cheaper for you\\, but your name is Oleg\\, even if you are a girl",
+      "rusecond" : "Аренда каждого электросамоката для вас дешевле на 50%\\, но вас зовут Олег\\, даже если вы девушка",
+      "recid" : 202,
+      "id" : 193,
+      "enfirst" : " Each electric scooter you rent is always charged at 50% and rides only at 50% of the possible speed",
+      "setName" : "laugh"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "Всю жизнь вы ходите с кнопочным телефоном\\, который умеет только звонить и отправлять смс\\, но связь для вас абсолютно бесплатна",
+      "ensecond" : "You can go with a smartphone\\, but the mobile Internet is $ 500 per month\\, but any obscene content on the screen is always automatically closed squares",
+      "rusecond" : "Вы можете ходить со смартфоном\\, но мобильный интернет стоит 500 долларов в месяц\\, а любой нецензурный контент на его экране всегда автоматически закрывается квадратиками",
+      "recid" : 203,
+      "id" : 203,
+      "enfirst" : "your Whole life you go with push-button phone that can only call and send SMS\\, but the connection for you completely free",
+      "setName" : "laugh"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "Вы можете бесплатно отключить всю рекламу в интернете и по ТВ\\, но только на 2 дня в неделю",
+      "ensecond" : "You can turn off all advertising for 4 days a week for free\\, but for the remaining 3 days you will only see ads for antifungal agents",
+      "rusecond" : "Вы можете бесплатно отключить всю рекламу на 4 дня в неделю\\, но оставшиеся 3 дня вы будете видеть только рекламу противогрибковых средств",
+      "recid" : 204,
+      "id" : 204,
+      "enfirst" : "You can turn off all advertising on the Internet and on TV for free\\, but only for 2 days a week",
+      "setName" : "laugh"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "Отправиться в автоматизированное 10-минутное космическое путешествие со своей второй половиной\\, без каких либо инструкций и другого экипажа",
+      "ensecond" : "Go on a 10-minute space journey with an experienced 87-year-old female instructor",
+      "rusecond" : "Отправиться в 10-минутное космическое путешествие с опытной 87-летней женщиной инструктором",
+      "recid" : 205,
+      "id" : 205,
+      "enfirst" : "Go on an automated 10-minute space journey with your other half\\, without any instructions and another crew",
+      "setName" : "laugh"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "Вас приглашают сняться в российском фильме\\, повторяющем сюжет \\\"\\\"Горько\\\"\\\"",
+      "ensecond" : "You are invited to star in a new Hollywood action movie\\, but with Alexander Nevsky and Panin in the main roles",
+      "rusecond" : "Вас приглашают сняться в новом голливудском боевике\\, но с Александром Невским и Паниным в главных ролях",
+      "recid" : 206,
+      "id" : 206,
+      "enfirst" : "You are invited to star in a Russian film that repeats the plot \\\"\\\"Bitterly\\\"\\\"",
+      "setName" : "laugh"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "На пенсии у вас осталось 100 сериалов и чудом сохранившийся телевизор \\\"\\\"Горизонт\\\"\\\"",
+      "ensecond" : "In retirement you have 30 video games and an outdated domestic video card \\\"\\\"Palette\\\"\\\"",
+      "rusecond" : "На пенсии у вас осталось 30 видеоигр и устаревшая отечественная видеокарта \\\"\\\"Палитра\\\"\\\"",
+      "recid" : 207,
+      "id" : 207,
+      "enfirst" : "In retirement you have 100 TV series and a miraculously preserved TV \\\"\\\"Horizon\\\"\\\"",
+      "setName" : "laugh"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "Вы можете вернуть доллар по 30 рублей",
+      "ensecond" : "You can go back to the past for 20 minutes and buy Bitcoin\\, but when you return to the present\\, you will change the color of your skin",
+      "rusecond" : "Вы можете на 20 минут вернуться в прошлое и купить Биткоин\\, но по возвращению в настоящее вы измените цвет кожи",
+      "recid" : 208,
+      "id" : 208,
+      "enfirst" : "You can return a dollar for 30 rubles",
+      "setName" : "laugh"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "Пойти на курсы пилота в авиашколу \\\"\\\"Летальный опыт\\\"\\\"",
+      "ensecond" : "Go for a year in clothes and shoes of a Chinese brand \\\"\\\"Kakloh\\\"\\\"",
+      "rusecond" : "Год ходить в одежде и обуви китайского бренда \\\"\\\"Kakloh\\\"\\\"",
+      "recid" : 209,
+      "id" : 209,
+      "enfirst" : "Go to pilot courses at an aviation school \\\"\\\"Lethal experience\\\"\\\"",
+      "setName" : "laugh"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "Правительство будет майнить криптовалюту с помощью чипов в вашем организме\\, и улучшать экономическую ситуацию в стране за счет этого",
+      "ensecond" : "You will work in the fishing industry in Norway and get good money\\, but you will only be engaged in fish all your life",
+      "rusecond" : "Вы будете работать на рыбном промысле в Норвегии и получать неплохие деньги\\, но всю жизнь заниматься только рыбой",
+      "recid" : 210,
+      "id" : 210,
+      "enfirst" : "The government will mine cryptocurrency using chips in your body\\, and improve the economic situation in the country due to this",
+      "setName" : "laugh"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "В альтернативной вселенной нейросеть подменила лица людей в популярных фильмах. Вы посмотрите \\\"\\\"Мстителей\\\"\\\" с Николаем Валуевым в роли Таноса",
+      "ensecond" : "You will watch comedies with Leslie Nielson\\, where Boris Yeltsin plays instead of him",
+      "rusecond" : "Вы посмотрите комедии с Лесли Нильсоном\\, где вместо него играет Борис Ельцин",
+      "recid" : 211,
+      "id" : 211,
+      "enfirst" : "In an alternative universe\\, a neural network has replaced the faces of people in popular films. You will watch \\\"\\\"The Avengers\\\" \\\"with Nikolai Valuev as Thanos",
+      "setName" : "laugh"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "В вашей стране заблокировали все социальные сети кроме Одноклассников",
+      "ensecond" : "All search engines except Rambler have been blocked in your country",
+      "rusecond" : "В вашей стране заблокировали все поисковики кроме Rambler",
+      "recid" : 212,
+      "id" : 212,
+      "enfirst" : "All social networks except Odnoklassniki have been blocked in your country",
+      "setName" : "laugh"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "Вам бесплатно достался автомобиль Tesla с одной неустранимой неисправностью. На магнитоле можно включить только песню из мультфильма \\\"\\\"Утиные истории\\\"\\\"",
+      "ensecond" : "You get a free share in a two-room apartment in which an unknown 65-year-old fortune teller is registered and lives",
+      "rusecond" : "Вы бесплатно получаете долю в двухкомнатной квартире\\, в которой прописана и проживает незнакомая 65-летняя гадалка",
+      "recid" : 213,
+      "id" : 213,
+      "enfirst" : "You got a Tesla car with one irreparable malfunction for free. On the tape recorder\\, you can only turn on a song from the cartoon \\\"\\\" Duck stories\\\"\\\"",
+      "setName" : "laugh"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "На очередной день рождения вы получили картину\\, на которой вы изображены на коне и с саблей",
+      "ensecond" : "You received as a gift a complete collection of Indian films on VHS and DVD",
+      "rusecond" : "Вы получили в подарок полное собрание индийских фильмов на VHS и DVD",
+      "recid" : 214,
+      "id" : 214,
+      "enfirst" : "On your next birthday\\, you received a picture in which you are depicted on a horse and with a saber",
+      "setName" : "laugh"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "Вы за неделю обманом заработаете миллион рублей\\, собирая деньги в социальных сетях на несуществующие похороны и дорогостоящее лечение",
+      "ensecond" : "You will earn 20 thousand rubles in a week by leaving unpleasant comments and false stories on the Internet about complete strangers and organizations",
+      "rusecond" : "Вы за неделю заработаете 20 тысяч рублей\\, оставляя в Интернете неприятные комментарии и лживые истории в отношении совершенно незнакомых людей и организаций",
+      "recid" : 215,
+      "id" : 215,
+      "enfirst" : "You will earn a million rubles in a week by fraud\\, collecting money in social networks for non-existent funerals and expensive treatment",
+      "setName" : "laugh"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "Вы немного известны среди молодежи как автор песни\\, на которую Канье Уест выпустил очень популярный кавер",
+      "ensecond" : "You are incredibly popular among the older generation as the author and performer of a joint composition with Nikolai Baskov",
+      "rusecond" : "Вы невероятно популярны среди старшего поколения как автор и исполнитель совместной композиции с Николаем Басковым",
+      "recid" : 216,
+      "id" : 216,
+      "enfirst" : "You are a little known among young people as the author of a song for which Kanye West released a very popular cover",
+      "setName" : "laugh"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "В ближайшем будущем полностью запретили разделение туалетных комнат на мужские и женские",
+      "ensecond" : "In the near future\\, the screening of foreign films in cinemas is completely prohibited",
+      "rusecond" : "В ближайшем будущем полностью запретили показ зарубежных фильмов в кинотеатрах",
+      "recid" : 217,
+      "id" : 217,
+      "enfirst" : "In the near future\\, the separation of toilet rooms into male and female is completely prohibited",
+      "setName" : "laugh"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "Через 5 лет введут обязательное изучение китайского языка для всех граждан\\, сделав его вторым государственным",
+      "ensecond" : "Borscht\\, dumplings and draniki will be recognized as prohibited foreign dishes and you may be fined for consumption (neighbors will definitely pawn you)",
+      "rusecond" : "Борщ\\, пельмени и драники будут признаны запрещенными зарубежными блюдами и вас могут оштрафовать за употреболение (соседи обязательно вас заложат)",
+      "recid" : 218,
+      "id" : 218,
+      "enfirst" : "In 5 years\\, they will introduce mandatory Chinese language learning for all citizens\\, making it the second state language",
+      "setName" : "laugh"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "Вы с другом проспорили\\, и теперь обязаны на протяжении года выглядеть как пара бородачей из ZZ Top",
+      "ensecond" : "You argued with a friend\\, and now every Saturday for a year you act as models for art school students",
+      "rusecond" : "Вы с другом проспорили\\, и теперь каждую субботу на протяжении года выступаете в роли натурщиков для учеников художественной школы",
+      "recid" : 219,
+      "id" : 219,
+      "enfirst" : "You argued with a friend\\, and now you have to look like a couple of bearded men from ZZ Top for a year",
+      "setName" : "laugh"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "Вас приговорили к общественным работам. Вы пойдете работать в зоопарк\\, убирая за хомячками и кроликами\\, которые пойдут на корм змеям и крупным хищникам",
+      "ensecond" : "You will go to serve food for prisoners in places of detention",
+      "rusecond" : "Вы отправитесь накладывать еду для заключенных в место лишения свободы",
+      "recid" : 220,
+      "id" : 220,
+      "enfirst" : "You were sentenced to community service. You will go to work at the zoo\\, cleaning up after hamsters and rabbits\\, which will be used for food for snakes and large predators",
+      "setName" : "laugh"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "Вы можете изменить одно событие в прошлом. Вы вернете компании Nokia лидерство на рынке смартфонов",
+      "ensecond" : "You will make Ksenia Anatolyevna Sobchak the president of Russia",
+      "rusecond" : "Вы сделаете Ксению Анатольевну Собчак президентом России",
+      "recid" : 221,
+      "id" : 221,
+      "enfirst" : "You can change one event in the past. You will return Nokia to the leadership in the smartphone market",
+      "setName" : "laugh"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "Вы маг и чародей. Юрий Хованский за хорошее вознаграждение просит вас воскресить Майкла Джексона для совместного трека\\, но вы против. Вы воскресите Людмилу Гурченко",
+      "ensecond" : "You will call Andrey Gubin\\, but convince the customer that the singer had to be resurrected",
+      "rusecond" : "Вы позовете Андрея Губина\\, но убедите заказчика в том\\, что певца пришлось воскрешать",
+      "recid" : 222,
+      "id" : 222,
+      "enfirst" : "You are a magician and a sorcerer. Yuri Khovansky\\, for a good reward\\, asks you to resurrect Michael Jackson for a joint track\\, but you are against it. You will resurrect Lyudmila Gurchenko",
+      "setName" : "laugh"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "Позвать на день рождения друга\\, который постоянно занимает деньги",
+      "ensecond" : "To invite a friend who constantly merges for the new year",
+      "rusecond" : "Позвать на новый год друга\\, который постоянно сливается",
+      "recid" : 223,
+      "id" : 223,
+      "enfirst" : "To invite a friend who constantly borrows money for a birthday party",
+      "setName" : "laugh"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "На работе вы напечатали табличку \\\"\\\"работает голосовое управление\\\"\\\"\\, чтобы подколоть коллег. Вы повесите ее на новую кофеварку",
+      "ensecond" : "You will hang it on a new executive chair",
+      "rusecond" : "Вы повесите ее на новое кресло руководителя",
+      "recid" : 224,
+      "id" : 224,
+      "enfirst" : "At work\\, you printed a sign \\\"\\\"voice control works\\\"\\\" to tease colleagues. You will hang it on a new coffee maker",
+      "setName" : "laugh"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "Ваша новая диета запрещает вам пить прохладные напитки\\, только горячие\\, либо комнатной температуры",
+      "ensecond" : "You completely lose the ability to run. It seems to be nothing terrible\\, but there is no way to catch up with the bus or escape from the robber",
+      "rusecond" : "Вы полостью теряете возможность бегать. Вроде бы ничего страшного\\, но догнать автобус или сбежать от грабителя никак не выйдет",
+      "recid" : 225,
+      "id" : 225,
+      "enfirst" : "Your new diet forbids you to drink cool drinks\\, only hot\\, or at room temperature",
+      "setName" : "laugh"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "Вы влюблены в двух людей. У каждого из них только по одному недостатку. Вы выберете того\\, у кого гусиная кожа",
+      "ensecond" : "You will choose a person with a ridiculous annoying laugh (for example\\, like Goofy the dog)",
+      "rusecond" : "Вы выберете человека с нелепым раздражающим всех вокруг смехом (например\\, как у пса Гуфи)",
+      "recid" : 226,
+      "id" : 226,
+      "enfirst" : "You are in love with two people. Each of them has only one drawback. You will choose someone who has goose bumps",
+      "setName" : "laugh"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "Вы совершенно случайно\\, сами того не подозревая\\, оскорбили представителей небольшого гордого народа. Вы можете публично извиниться\\, выложив видео на своей странице",
+      "ensecond" : "You don't have to apologize\\, but for completely inexplicable and illogical circumstances\\, you will have to use a Microsoft browser for the rest of your life",
+      "rusecond" : "Вы можете не извиняться\\, но по совершенно необъяснимым и нелогичным обстоятельствам\\, всю оставшуюся жизнь вам придется использовать браузер от компании Microsoft",
+      "recid" : 227,
+      "id" : 227,
+      "enfirst" : "You quite accidentally\\, without knowing it\\, insulted the representatives of a small proud people. You can publicly apologize by posting a video on your page",
+      "setName" : "laugh"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "Юрий Дудь пригласил вас на съемки интервью\\, но в получившемся видео вы кажетесь немного глупым на фоне интервьюера\\, что охотно подмечают в комментариях",
+      "ensecond" : "invited You to transfer \\\"\\\"Let them talk\\\"\\,\\\" and you seem to be the most intelligent and adequate in the Studio",
+      "rusecond" : "Вас пригласили на передачу \\\"\\\"Пусть Говорят\\\"\\\"\\, и вы кажетесь самым умным и адекватным в студии",
+      "recid" : 228,
+      "id" : 228,
+      "enfirst" : "Yuri Dude invited you to shoot the interview\\, but the resulting video\\, you seem a little silly on the background of the interviewer\\, I noticed in the comments",
+      "setName" : "laugh"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "Вам дарят бар\\, но только при том условии\\, что он будет называться \\\"\\\"Гадкий(-ая) (далее ваше имя)\\\"\\\"",
+      "ensecond" : "You give the store dairy products\\, on the condition that he would be called \\\"the\\\"Milk (next to your name in the genitive)\\\"\\\"",
+      "rusecond" : "Вам дарят магазин молочной продукции при том условии\\, что он будет называться \\\"\\\"Молоко (далее ваше имя в родительном падеже)\\\"\\\"",
+      "recid" : 229,
+      "id" : 229,
+      "enfirst" : "You give the bar\\, but only under the condition that he would be called \\\"\\\"the Ugly (th) (then your name)\\\"\\\"",
+      "setName" : "laugh"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "Вас разыскивает интерпол. В целях безопасности вы меняете имя на Святополк (и пол\\, если потребуется)",
+      "ensecond" : "You add the letter \\\"\\\"G\\\"\\\" at the beginning of your last name (make sure that this will help you hide)",
+      "rusecond" : "Вы добавляете букву \\\"\\\"Г\\\"\\\" в начале своей фамилии (убедитесь\\, что это поможет вам скрыться)",
+      "recid" : 230,
+      "id" : 230,
+      "enfirst" : "Interpol is looking for you. For security reasons\\, you are changing your name to Svyatopolk (and gender\\, if necessary)",
+      "setName" : "laugh"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "Вам срочно потребовалась подработка. Вы будете мыть игрушки после веб-кам моделей",
+      "ensecond" : "Wash the aprons of sellers from the fish pavilion at the market",
+      "rusecond" : "Стирать фартуки продавцов из рыбного павильона на рынке",
+      "recid" : 231,
+      "id" : 231,
+      "enfirst" : "You urgently needed a part-time job. You will wash toys after the models webcams",
+      "setName" : "laugh"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "Ваш продюсер говорит\\, что вы должны переплюнуть наряд Леди Гаги на церемонии вручения премии. Вы наденете костюм из человеческих ногтей",
+      "ensecond" : "You will be smeared with chocolate\\, only then realizing what ambiguous headlines it will cause in the media",
+      "rusecond" : "Вы обмажетесь шоколадом\\, лишь потом осознав\\, какие неоднозначные заголовки это вызовет в СМИ",
+      "recid" : 232,
+      "id" : 232,
+      "enfirst" : "Your producer says that you should surpass Lady Gaga's outfit at the award ceremony. You will wear a suit made of human nails",
+      "setName" : "laugh"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "Тарифы на сотовую связь внезапно подорожали. Приходится тратить по 300 рублей ежедневно.",
+      "ensecond" : "Tariffs have remained the same\\, but the quality of network coverage has returned to the level of 2003",
+      "rusecond" : "Тарифы остались прежними\\, но качество покрытия сети вернулось на уровень 2003 года",
+      "recid" : 233,
+      "id" : 233,
+      "enfirst" : "Cellular tariffs have suddenly risen in price. We have to spend 300 rubles every day.",
+      "setName" : "laugh"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "Вы успешный рэпер\\, которого вызвали на батл. Вы должны победить\\, но ваше выступление может состоять только из слов на букву \\\"\\\"М\\\"\\\"",
+      "ensecond" : "You a stand-up comedian who performs a monologue\\, where all the words start with the letter \\\"\\\"T\\\"\\\" and during the performance\\, you need to integrate advertising Alfa-Bank",
+      "rusecond" : "Вы стэндап-комик\\, который выступает с монологом\\, где все слова начинаются с буквы \\\"\\\"Т\\\"\\\"\\, а во время выступления вам нужно интегрировать рекламу Альфа-Банка",
+      "recid" : 234,
+      "id" : 234,
+      "enfirst" : "You are a successful rapper who was called to the battle. You have to win\\, but your performance may consist only of the words on the letter \\\"\\\"M\\\"\\\"",
+      "setName" : "laugh"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "Вы случайно уронили радиоактивный изотоп в водосточный люк. Расскажете об этом\\, и во всем городе перекроют воду\\, а вас оштрафуют и посадят",
+      "ensecond" : "You will hide what happened without consequences for yourself\\, but with completely unpredictable consequences for many people you don't know",
+      "rusecond" : "Скроете произошедшее без последствий для себя\\, но с совершенно непредсказуемыми последствиями для многих незнакомых вам людей",
+      "recid" : 235,
+      "id" : 235,
+      "enfirst" : "You accidentally dropped a radioactive isotope into a manhole. Tell us about it\\, and the water will be blocked in the whole city\\, and you will be fined and imprisoned",
+      "setName" : "laugh"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "Соседка просит вас потушить пожар в мусорном контейнере водой из под крана\\, но вокруг нет ни одной емкости. Будете носить воду у себя во рту",
+      "ensecond" : "You will take a pair of condoms out of your pocket and fill them with water for the joy of all the residents of the surrounding houses (you can accidentally become an unnamed YouTube star)",
+      "rusecond" : "Достанете из кармана пару презервативов\\, и наполните их водой на радость всем жильцам окрестных домов (можно случайно стать безымянной звездой YouTube)",
+      "recid" : 236,
+      "id" : 236,
+      "enfirst" : "A neighbor asks you to put out a fire in a garbage container with tap water\\, but there is not a single container around. You will carry water in your mouth",
+      "setName" : "laugh"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "Вы потеряли кошелек в пригороде\\, и у вас нет денег и связи\\, чтобы вернуться домой. Вы постараетесь проехать в автобусе зайцем",
+      "ensecond" : "You will try to quietly collect the necessary amount for a ticket in the fountain",
+      "rusecond" : "Постараетесь незаметно собрать нужную сумму на билет в фонтане",
+      "recid" : 237,
+      "id" : 237,
+      "enfirst" : "You have lost your wallet in the suburbs\\, and you do not have the money and connection to return home. You will try to ride the bus like a hare",
+      "setName" : "laugh"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "Вам предстоит бороться за жизнь во время апокалипсиса. Вы возьмете с собой двоих друзей и Скарлет Йохансон",
+      "ensecond" : "You will take one friend\\, Anatoly Wasserman and Elon Musk",
+      "rusecond" : "Вы возьмете одного друга\\, Анатолия Вассермана и Илона Маска",
+      "recid" : 238,
+      "id" : 238,
+      "enfirst" : "You have to fight for life during the apocalypse. You will take two friends and Scarlett Johansson with you",
+      "setName" : "laugh"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "У вас на спине татуировка с неприличным словом\\, полученная в результате спора. Вечером вам идти в баню со старшими родственниками. Вы постараетесь закрасить тату тональным кремом",
+      "ensecond" : "You will constantly sit with a towel on your shoulders\\, refusing to take it off under any pretext",
+      "rusecond" : "Вы будете постоянно сидеть с полотенцем на плечах\\, отказываясь его снимать под любым предлогом",
+      "recid" : 239,
+      "id" : 239,
+      "enfirst" : "You have a tattoo on your back with an obscene word\\, obtained as a result of an argument. In the evening\\, you will go to the bathhouse with older relatives. You will try to paint over the tattoo with foundation",
+      "setName" : "laugh"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "Ваш новый партнер не умеет выговаривать вторую букву вашего имени",
+      "ensecond" : "Your new partner constantly forgets your name\\, for example\\, when he introduces you at a wedding",
+      "rusecond" : "Ваш новый партнер постоянно забывает как вас зовут\\, например\\, когда представляет вас на свадьбе",
+      "recid" : 240,
+      "id" : 240,
+      "enfirst" : "Your new partner does not know how to pronounce the second letter of your name",
+      "setName" : "laugh"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "Вы поселитесь в квартире\\, где соседей слышно как через лист картона",
+      "ensecond" : "You will live in an apartment where water flows loudly from the tap around the clock ",
+      "rusecond" : "Вы поселитесь в квартире\\, где круглые сутки из крана громко течет вода ",
+      "recid" : 241,
+      "id" : 241,
+      "enfirst" : "You will live in an apartment where the neighbors can be heard through a sheet of cardboard",
+      "setName" : "laugh"
+   },
+   {
+      "isPlayed" : 0,
+      "rufirst" : "Человечеству придется навсегда отказаться от одной из современных технологий. Откажетесь от автомобилей",
+      "ensecond" : "Give up the drain tanks in the toilets (the fate of humanity depends on your decision)",
+      "rusecond" : "Откажетесь от сливных бачков в туалетах (судьба человечества зависит от вашего решения)",
+      "recid" : 242,
+      "id" : 242,
+      "enfirst" : "Humanity will have to abandon one of the modern technologies forever. Give up cars",
+      "setName" : "laugh"
+   }
+]

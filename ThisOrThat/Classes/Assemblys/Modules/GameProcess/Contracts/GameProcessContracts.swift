@@ -47,9 +47,8 @@ protocol GameProcessInteractorInput {
     func increaseScore()
     func setPlayersInGame()
     func changeQuestion()
+    func endGame()
     func setPlayer(selected player: Player)
-    
-    
 }
 
 // Router

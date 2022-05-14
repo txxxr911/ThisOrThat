@@ -15,8 +15,12 @@ class CatalogAssembly: Assembly {
         // View
         let view = CatalogViewController.controllerFromStoryboard("Catalog")
         
+        // Services
+        
+        let setDataService = container.resolve(SetDataServiceAssembly.self).build()
+        
         // Interactor
-        let interactor = CatalogInteractor()
+        let interactor = CatalogInteractor(setDataService: setDataService)
         
         // Router
         let router = CatalogRouter(coordinator: coordinator)

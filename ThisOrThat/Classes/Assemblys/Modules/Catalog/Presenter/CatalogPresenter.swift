@@ -12,6 +12,15 @@ class CatalogPresenter: BasePresenter<CatalogInteractorInput, CatalogRouterProto
     
     // MARK: - Weak properties
     weak var view: CatalogViewInput?
+    
+    var items: [CardSet] {
+        let sets = interactor.allSets
+        
+        var data: [CardSet] = []
+        data.append(contentsOf: sets)
+        
+        return data
+    }
 }
 
 // MARK: Private
@@ -26,7 +35,17 @@ extension CatalogPresenter: CatalogModuleInput {
 
 // MARK: View Output
 extension CatalogPresenter: CatalogViewOutput {
-    func viewDidLoad() {
-        view?.set(title: "Catalog")
+    func didSelectItem(item: CardSet) {
+        router.navigateToSet(item: item)
+        return
     }
+    
+    func didTapBackButton() {
+        
+    }
+    
+    func viewDidLoad() {
+    }
+    
+    
 }

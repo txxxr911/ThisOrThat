@@ -9,9 +9,9 @@
 import Foundation
 
 protocol QuestionDataServiceType: JsonDataService {
-    func getFree(setId: String) -> [Task]
-    func getAll(setId: String) -> [Task]
-    func save(task: Task)
-    func importToRealm()
-    func resetCard()
+    //func getFree(setName: String) -> [Question]
+    func getAll(setName: String) -> [Question]
+    //func save(question: Question)
+    //func importToRealm()
+    //func resetCard()
 }

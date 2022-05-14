@@ -26,13 +26,20 @@ protocol CatalogViewInput: class {
 // View Output
 protocol CatalogViewOutput: class {
     func viewDidLoad()
+    var items: [CardSet] { get }
+    func didSelectItem(item: CardSet)
+    func didTapBackButton()
 }
 
 // Interactor
 protocol CatalogInteractorInput {
+    var allSets: [CardSet] { get }
 }
 
 // Router
 protocol CatalogRouterProtocol: AlertRoutable {
-    
+    func navigateToSet(item: CardSet)
+    func navigateBack()
+    func navigateToPurchase()
+    func navigateToGame(setNames: [String])
 }

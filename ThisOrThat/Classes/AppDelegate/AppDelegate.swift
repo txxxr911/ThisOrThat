@@ -30,13 +30,14 @@ class AppDelegate: AppDelegateManager {
         container.apply(RulesAssembly.self)
         container.apply(GameProcessAssembly.self)
         container.apply(ResultsAssembly.self)
+        container.apply(SetInfoAssembly.self)
         
         // Setup Services
         container.apply(AppConfigServiceAssembly.self)
         container.apply(EnvironmentServiceAssembly.self)
         container.apply(PlayerDataServiceAssembly.self)
         container.apply(QuestionDataServiceAssembly.self)
-        
+        container.apply(SetDataServiceAssembly.self)
         return container
     }()
     

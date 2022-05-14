@@ -15,8 +15,11 @@ class ResultsAssembly: Assembly {
         // View
         let view = ResultsViewController.controllerFromStoryboard("Results")
         
+        // Services
+        let playerDataService = container.resolve(PlayerDataServiceAssembly.self).build()
+        
         // Interactor
-        let interactor = ResultsInteractor(players: players)
+        let interactor = ResultsInteractor(players: players, playersDataService: playerDataService)
         
         // Router
         let router = ResultsRouter(coordinator: coordinator)

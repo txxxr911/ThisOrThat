@@ -9,5 +9,22 @@
 import Foundation
 
 class CatalogRouter: BaseModuleRouter, CatalogRouterProtocol {
+    func navigateToSet(item: CardSet) {
+        let module = container.resolve(SetInfoAssembly.self).build(coordinator: coordinator, set: item)
+        coordinator.router.present(module, style: .popover)
+    }
+    
+    func navigateBack() {
+        
+    }
+    
+    func navigateToPurchase() {
+        
+    }
+    
+    func navigateToGame(setNames: [String]) {
+        
+    }
+    
     
 }
