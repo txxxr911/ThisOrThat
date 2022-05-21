@@ -19,6 +19,7 @@ class GameProcessInteractor: GameProcessInteractorInput {
     
     var leadingPlayer: Player?
     var playersInGame: [Player]
+    //var currentQuestion: Question
     
     private(set) var selectedPlayer: Player?
     
@@ -45,7 +46,7 @@ class GameProcessInteractor: GameProcessInteractorInput {
     }
     
     func changeQuestion() {
-        
+        //guard let question =
     }
     
     func changeLeading() {

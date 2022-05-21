@@ -1,0 +1,52 @@
+{
+  "identifier" : "D4CBF02F",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+
+  ],
+  "settings" : {
+
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "ADCB478B",
+      "localizations" : [
+
+      ],
+      "name" : "Premium Access",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "1.65",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "94BA16E9",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "",
+              "displayName" : "",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "premium_week_subscription",
+          "recurringSubscriptionPeriod" : "P1W",
+          "referenceName" : "PremiumForWeek",
+          "subscriptionGroupID" : "ADCB478B",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 1,
+    "minor" : 2
+  }
+}

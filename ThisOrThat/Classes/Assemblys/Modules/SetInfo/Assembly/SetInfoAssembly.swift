@@ -11,12 +11,16 @@ import UIKit
 typealias SetInfoModule = Module<SetInfoModuleInput, SetInfoModuleOutput>
 
 class SetInfoAssembly: Assembly {
-    func build(coordinator: CoordinatorType, set: CardSet) -> SetInfoModule {
+    func build(coordinator: CoordinatorType, set: CardSet, onFinished: @escaping () ->Void, onClosed: @escaping () -> Void) -> SetInfoModule {
         // View
         let view = SetInfoViewController.controllerFromStoryboard("SetInfo")
         
+        // Services
+        
+        let purchaseService = container.resolve(PurchaseServiceAssembly.self).build()
+        
         // Interactor
-        let interactor = SetInfoInteractor()
+        let interactor = SetInfoInteractor(item: set, purchaseService: purchaseService , onFinished: onFinished, onClosed: onClosed)
         
         // Router
         let router = SetInfoRouter(coordinator: coordinator)

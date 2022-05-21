@@ -46,54 +46,54 @@ class CatalogCustomCell: UITableViewCell {
     fileprivate func layoutBackground() {
         contentView.addSubview(background)
         
-        background.snp.makeConstraints { make in
-            make.width.equalTo(339)
-            make.height.equalTo(154)
-            make.centerX.equalToSuperview()
+        background.snp.makeConstraints {
+            $0.width.equalTo(339)
+            $0.height.equalTo(154)
+            $0.centerX.equalToSuperview()
         }
     }
     
     fileprivate func layoutCardIcon() {
         contentView.addSubview(cardIcon)
         
-        cardIcon.snp.makeConstraints { make in
-            make.width.equalTo(100)
-            make.height.equalTo(100)
-            make.top.equalTo(background).inset(20)
-            make.left.equalTo(background).inset(13)
+        cardIcon.snp.makeConstraints {
+            $0.width.equalTo(100)
+            $0.height.equalTo(100)
+            $0.top.equalTo(background).inset(20)
+            $0.left.equalTo(background).inset(13)
         }
     }
     
     fileprivate func layoutCardName() {
         contentView.addSubview(cardNameLabel)
         
-        cardNameLabel.snp.makeConstraints { make in
-            make.width.equalTo(162)
-            make.height.equalTo(38)
-            make.top.equalTo(background).inset(10)
-            make.left.equalTo(background).inset(123.1)
+        cardNameLabel.snp.makeConstraints {
+            $0.width.equalTo(162)
+            $0.height.equalTo(38)
+            $0.top.equalTo(background).inset(10)
+            $0.left.equalTo(background).inset(123.1)
         }
     }
     
     fileprivate func layoutCardDescription() {
         contentView.addSubview(cardDescription)
         
-        cardDescription.snp.makeConstraints { make in
-            make.width.equalTo(215)
-            make.height.equalTo(45)
-            make.top.equalTo(background).inset(54)
-            make.left.equalTo(background).inset(123.1)
+        cardDescription.snp.makeConstraints {
+            $0.width.equalTo(215)
+            $0.height.equalTo(45)
+            $0.top.equalTo(background).inset(54)
+            $0.left.equalTo(background).inset(123.1)
         }
     }
     
     fileprivate func layoutTaskCount() {
         contentView.addSubview(taskCount)
         
-        taskCount.snp.makeConstraints { make in
-            make.width.equalTo(189)
-            make.height.equalTo(38)
-            make.top.equalTo(background).inset(111)
-            make.left.equalTo(background).inset(123)
+        taskCount.snp.makeConstraints {
+            $0.width.equalTo(189)
+            $0.height.equalTo(38)
+            $0.top.equalTo(background).inset(111)
+            $0.left.equalTo(background).inset(123)
         }
     }
     
@@ -106,22 +106,22 @@ class CatalogCustomCell: UITableViewCell {
     fileprivate func layoutButtonShadow() {
         contentView.addSubview(shadowButton)
         
-        shadowButton.snp.makeConstraints { make in
-            make.width.equalTo(92)
-            make.height.equalTo(32)
-            make.top.equalTo(background).inset(111)
-            make.left.equalTo(background).inset(236)
+        shadowButton.snp.makeConstraints {
+            $0.width.equalTo(92)
+            $0.height.equalTo(32)
+            $0.top.equalTo(background).inset(111)
+            $0.left.equalTo(background).inset(236)
         }
     }
     
     fileprivate func layoutConditionLabel() {
         contentView.addSubview(conditionLabel)
         
-        conditionLabel.snp.makeConstraints { make in
-            make.width.equalTo(107)
-            make.height.equalTo(38)
-            make.top.equalTo(background).inset(111)
-            make.left.equalTo(background).inset(231)
+        conditionLabel.snp.makeConstraints{
+            $0.width.equalTo(107)
+            $0.height.equalTo(38)
+            $0.top.equalTo(background).inset(111)
+            $0.left.equalTo(background).inset(231)
         }
     }
     

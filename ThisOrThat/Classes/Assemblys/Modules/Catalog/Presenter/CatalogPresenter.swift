@@ -14,10 +14,9 @@ class CatalogPresenter: BasePresenter<CatalogInteractorInput, CatalogRouterProto
     weak var view: CatalogViewInput?
     
     var items: [CardSet] {
-        let sets = interactor.allSets
         
         var data: [CardSet] = []
-        data.append(contentsOf: sets)
+        data.append(contentsOf: interactor.allSets)
         
         return data
     }
@@ -36,8 +35,14 @@ extension CatalogPresenter: CatalogModuleInput {
 // MARK: View Output
 extension CatalogPresenter: CatalogViewOutput {
     func didSelectItem(item: CardSet) {
-        router.navigateToSet(item: item)
-        return
+        router.navigateToSet(item: item, onFinished: {
+            [weak self] in
+            guard let self = self else {return}
+            self.router.navigateBack()
+        },
+                             onClosed: {
+            
+        })
     }
     
     func didTapBackButton() {

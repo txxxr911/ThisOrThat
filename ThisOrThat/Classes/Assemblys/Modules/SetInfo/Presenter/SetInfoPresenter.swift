@@ -7,9 +7,10 @@
 //
 
 import Foundation
+import ProgressHUD
+
 
 class SetInfoPresenter: BasePresenter<SetInfoInteractorInput, SetInfoRouterProtocol>, SetInfoModuleOutput {
-    
     // MARK: - Weak properties
     weak var view: SetInfoViewInput?
 }
@@ -26,7 +27,19 @@ extension SetInfoPresenter: SetInfoModuleInput {
 
 // MARK: View Output
 extension SetInfoPresenter: SetInfoViewOutput {
+    var item: CardSet {
+        interactor.item
+    }
+    
+    func purchaseSetButton(item: CardSet) {
+  
+    }
+    
+    func purchasePremium(for period: productIDs) {
+        
+    }
+    
     func viewDidLoad() {
-        view?.set(title: "SetInfo")
+        view?.set()
     }
 }

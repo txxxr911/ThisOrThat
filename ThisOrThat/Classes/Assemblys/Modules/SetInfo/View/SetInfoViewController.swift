@@ -13,18 +13,35 @@ class SetInfoViewController: UIViewController, SetInfoViewInput {
     
     var backgroundImage = UIImageView()
     var exampleSetView = UIImageView()
+    var exampleDescription = UILabel()
     var orLabel = UILabel()
     var premium = UIImageView()
     
     var exampleSetName = UILabel()
     var premiumLabel = UILabel()
     
+    var buySetButton = UIButton()
     var premiumOnWeek = UIButton()
     var premiumOnMonth = UIButton()
     var premiumForever = UIButton()
     
+    
+    @objc func didTapBuySetButton() {
+        
+    }
+    @objc func didTapPremiumOnWeekButton() {
+        
+    }
+    @objc func didTapPremiumOnMonthButton() {
+        
+    }
+    @objc func didTapPremiumForeverButton() {
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        layout()
         output.viewDidLoad()
     }
 }
@@ -36,8 +53,9 @@ extension SetInfoViewController {
 
 // MARK: View Input
 extension SetInfoViewController {
-    func set(title: String) {
-        self.title = title
+    func set() {
+        exampleSetName.text = output.item.title
+        exampleDescription.text = output.item.exampleQuestion
     }
 }
 

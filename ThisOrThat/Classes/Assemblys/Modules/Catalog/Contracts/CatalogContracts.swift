@@ -38,8 +38,7 @@ protocol CatalogInteractorInput {
 
 // Router
 protocol CatalogRouterProtocol: AlertRoutable {
-    func navigateToSet(item: CardSet)
+    func navigateToSet(item: CardSet, onFinished: @escaping () -> Void, onClosed: @escaping () -> Void)
     func navigateBack()
-    func navigateToPurchase()
     func navigateToGame(setNames: [String])
 }

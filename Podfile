@@ -8,6 +8,7 @@ target 'ThisOrThat' do
   # Pods for ThisOrThat
 pod 'SnapKit'
 pod 'RealmSwift'
+pod 'ProgressHUD'
   target 'ThisOrThatTests' do
     inherit! :search_paths
     # Pods for testing

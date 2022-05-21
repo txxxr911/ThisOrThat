@@ -22,29 +22,29 @@ extension CatalogViewController {
     fileprivate func layoutBackgroundImage() {
         view.addSubview(backgroundImage)
         backgroundImage.image = UIImage(named: "background")
-        backgroundImage.snp.makeConstraints { make in
-            make.edges.equalToSuperview()
+        backgroundImage.snp.makeConstraints {
+             $0.edges.equalToSuperview()
         }
     }
     
     fileprivate func layoutNavigationBar() {
         view.addSubview(navigationBar)
-        navigationBar.snp.makeConstraints { make in
-            make.width.equalToSuperview()
-            make.height.equalTo(45)
-            make.centerX.equalToSuperview()
-            make.top.equalToSuperview().inset(20)
+        navigationBar.snp.makeConstraints {
+             $0.width.equalToSuperview()
+             $0.height.equalTo(45)
+             $0.centerX.equalToSuperview()
+             $0.top.equalToSuperview().inset(20)
         }
         viewTitle.text = "Каталог"
         viewTitle.textColor = .white
         viewTitle.textAlignment = .center
         viewTitle.font = UIFont(name: "YanoneKaffeesatz-Bold" , size: 36)
         navigationBar.addSubview(viewTitle)
-        viewTitle.snp.makeConstraints { make in
-            make.width.equalTo(162)
-            make.height.equalTo(39)
-            make.top.equalTo(navigationBar).inset(3)
-            make.centerX.equalTo(navigationBar)
+        viewTitle.snp.makeConstraints {
+             $0.width.equalTo(162)
+             $0.height.equalTo(39)
+             $0.top.equalTo(navigationBar).inset(3)
+             $0.centerX.equalTo(navigationBar)
         }
     }
     
@@ -52,11 +52,11 @@ extension CatalogViewController {
     fileprivate func layoutTableView() {
         view.addSubview(tableView)
         tableView.contentInset = UIEdgeInsets(top: 15, left: 0, bottom: 0, right: 0)
-        tableView.snp.makeConstraints { make in
-            make.top.equalTo(navigationBar).inset(65)
-            make.bottom.equalToSuperview().inset(0)
-            make.left.equalToSuperview()
-            make.right.equalToSuperview()
+        tableView.snp.makeConstraints {
+             $0.top.equalTo(navigationBar).inset(65)
+             $0.bottom.equalToSuperview().inset(0)
+             $0.left.equalToSuperview()
+             $0.right.equalToSuperview()
         }
     }
 }

@@ -14,6 +14,7 @@
 		3730AA752826FBE0009950B2 /* ResultsLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3730AA742826FBE0009950B2 /* ResultsLayout.swift */; };
 		37328FC0281310DD0024404C /* StartGameBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37328FBF281310DD0024404C /* StartGameBindings.swift */; };
 		37328FC2281310F70024404C /* StartGameLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37328FC1281310F70024404C /* StartGameLayout.swift */; };
+		37365D902838E6D600D85A8A /* StoreKit.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 37365D8F2838E6D600D85A8A /* StoreKit.storekit */; };
 		3745DE2D2821344D00409233 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3745DE2C2821344D00409233 /* Question.swift */; };
 		3745DE2F2821670400409233 /* GameProcessBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3745DE2E2821670400409233 /* GameProcessBindings.swift */; };
 		3745DE312821671300409233 /* GameProcessLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3745DE302821671300409233 /* GameProcessLayout.swift */; };
@@ -170,6 +171,9 @@
 		37BEEBB4280DC97300A18026 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37BEEBB3280DC97300A18026 /* Main.storyboard */; };
 		37C3B59C281A861F009DA0E9 /* CatalogLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C3B59B281A861F009DA0E9 /* CatalogLayout.swift */; };
 		37C3B59E281A8FCF009DA0E9 /* CatalogBindigs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C3B59D281A8FCF009DA0E9 /* CatalogBindigs.swift */; };
+		37D0C2B0283296FB00889AEA /* PurchaseServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D0C2AD283296FB00889AEA /* PurchaseServiceType.swift */; };
+		37D0C2B1283296FB00889AEA /* PurchaseServiceAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D0C2AE283296FB00889AEA /* PurchaseServiceAssembly.swift */; };
+		37D0C2B2283296FB00889AEA /* PurchaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D0C2AF283296FB00889AEA /* PurchaseService.swift */; };
 		37F79139282FA9AA00FE3C2B /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 37F79138282FA9AA00FE3C2B /* questions.json */; };
 		37F79154282FC08500FE3C2B /* SetInfo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37F79147282FC08500FE3C2B /* SetInfo.storyboard */; };
 		37F79155282FC08500FE3C2B /* SetInfoAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F79149282FC08500FE3C2B /* SetInfoAssembly.swift */; };
@@ -217,6 +221,7 @@
 		3730AA742826FBE0009950B2 /* ResultsLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsLayout.swift; sourceTree = "<group>"; };
 		37328FBF281310DD0024404C /* StartGameBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartGameBindings.swift; sourceTree = "<group>"; };
 		37328FC1281310F70024404C /* StartGameLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartGameLayout.swift; sourceTree = "<group>"; };
+		37365D8F2838E6D600D85A8A /* StoreKit.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = StoreKit.storekit; sourceTree = "<group>"; };
 		3745DE2C2821344D00409233 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		3745DE2E2821670400409233 /* GameProcessBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameProcessBindings.swift; sourceTree = "<group>"; };
 		3745DE302821671300409233 /* GameProcessLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameProcessLayout.swift; sourceTree = "<group>"; };
@@ -371,6 +376,9 @@
 		37BEEBB3280DC97300A18026 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		37C3B59B281A861F009DA0E9 /* CatalogLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogLayout.swift; sourceTree = "<group>"; };
 		37C3B59D281A8FCF009DA0E9 /* CatalogBindigs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogBindigs.swift; sourceTree = "<group>"; };
+		37D0C2AD283296FB00889AEA /* PurchaseServiceType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchaseServiceType.swift; sourceTree = "<group>"; };
+		37D0C2AE283296FB00889AEA /* PurchaseServiceAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchaseServiceAssembly.swift; sourceTree = "<group>"; };
+		37D0C2AF283296FB00889AEA /* PurchaseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchaseService.swift; sourceTree = "<group>"; };
 		37F79138282FA9AA00FE3C2B /* questions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = questions.json; sourceTree = "<group>"; };
 		37F79147282FC08500FE3C2B /* SetInfo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SetInfo.storyboard; sourceTree = "<group>"; };
 		37F79149282FC08500FE3C2B /* SetInfoAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetInfoAssembly.swift; sourceTree = "<group>"; };
@@ -427,6 +435,7 @@
 				F47671DA557E160AEC2AC9CA /* Pods_ThisOrThat.framework */,
 				403804973F92C891C30B4230 /* Pods_ThisOrThat_ThisOrThatUITests.framework */,
 				DC4C56D7DFEEE2BE3A0473CC /* Pods_ThisOrThatTests.framework */,
+				37365D8F2838E6D600D85A8A /* StoreKit.storekit */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1391,6 +1400,7 @@
 		37A6C2F8281FD922001DD7AC /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				37D0C2AC283296FB00889AEA /* PurchaseService */,
 				37A8DEF8282D05F4003E377F /* SetDataService */,
 				37A6C2F9281FD922001DD7AC /* QuestionDataService */,
 				37A6C2FD281FD922001DD7AC /* AppConfigService */,
@@ -1497,6 +1507,16 @@
 			children = (
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37D0C2AC283296FB00889AEA /* PurchaseService */ = {
+			isa = PBXGroup;
+			children = (
+				37D0C2AD283296FB00889AEA /* PurchaseServiceType.swift */,
+				37D0C2AE283296FB00889AEA /* PurchaseServiceAssembly.swift */,
+				37D0C2AF283296FB00889AEA /* PurchaseService.swift */,
+			);
+			path = PurchaseService;
 			sourceTree = "<group>";
 		};
 		37F79145282FC08500FE3C2B /* SetInfo */ = {
@@ -1713,6 +1733,7 @@
 				37BEEBB0280DC7F300A18026 /* StartScreen.storyboard in Resources */,
 				37F7915C282FD2D000FE3C2B /* sets.json in Resources */,
 				37BEEBB4280DC97300A18026 /* Main.storyboard in Resources */,
+				37365D902838E6D600D85A8A /* StoreKit.storekit in Resources */,
 				3746ADC2280B1CC1003439DF /* GameProcess.storyboard in Resources */,
 				3746ACD5280B1BAD003439DF /* Main.storyboard in Resources */,
 			);
@@ -1848,6 +1869,7 @@
 				3746AD61280B1BAD003439DF /* DependencyContainer.swift in Sources */,
 				37BEEBA9280D96D100A18026 /* GameStartCoordinatorAssembly.swift in Sources */,
 				37BEEBA7280D96D100A18026 /* GameStartCoordinator.swift in Sources */,
+				37D0C2B0283296FB00889AEA /* PurchaseServiceType.swift in Sources */,
 				3746ACCF280B1BAD003439DF /* MainContracts.swift in Sources */,
 				37F79157282FC08500FE3C2B /* SetInfoPresenter.swift in Sources */,
 				3746AD7D280B1BAD003439DF /* Theme.swift in Sources */,
@@ -1919,6 +1941,7 @@
 				37887395280DF3CA00E4BF7F /* RulesCustomCell.swift in Sources */,
 				37A8DEFD282D05F5003E377F /* SetDataServiceAssembly.swift in Sources */,
 				3746ACE3280B1BAD003439DF /* MainCoordinator.swift in Sources */,
+				37D0C2B1283296FB00889AEA /* PurchaseServiceAssembly.swift in Sources */,
 				3730AA712826FBC1009950B2 /* ResultsCell.swift in Sources */,
 				3746AD6D280B1BAD003439DF /* DeviceTweak.swift in Sources */,
 				37A6C31A281FD922001DD7AC /* PlayerDataServiceAssembly.swift in Sources */,
@@ -1994,6 +2017,7 @@
 				3730AA732826FBD2009950B2 /* ResultsBindings.swift in Sources */,
 				37A6C310281FD922001DD7AC /* QuestionDataService.swift in Sources */,
 				37BEEBA6280D96D100A18026 /* CatalogCoordinatorType.swift in Sources */,
+				37D0C2B2283296FB00889AEA /* PurchaseService.swift in Sources */,
 				3746AD20280B1BAD003439DF /* ViewBuilder.swift in Sources */,
 				37A8DF00282D06F8003E377F /* CardSet.swift in Sources */,
 				37A8DEFE282D05F5003E377F /* SetDataServiceType.swift in Sources */,

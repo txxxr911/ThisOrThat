@@ -15,4 +15,5 @@ struct CardSet: Decodable {
     let title: String
     let description: String
     let tasksCount: String
+    let exampleQuestion: String
 }

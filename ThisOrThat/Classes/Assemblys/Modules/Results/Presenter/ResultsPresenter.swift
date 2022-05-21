@@ -34,6 +34,5 @@ extension ResultsPresenter: ResultsViewOutput {
     }
     
     func viewDidLoad() {
-        view?.set(title: "Results")
     }
 }
