@@ -9,6 +9,10 @@
 import Foundation
 
 class SetInfoInteractor: SetInfoInteractorInput {
+    func sendSelectedSet() {
+        
+    }
+    
     
     
     let purchaseService: PurchaseServiceType
@@ -24,6 +28,10 @@ class SetInfoInteractor: SetInfoInteractorInput {
         self.onFinished = onFinished
         self.onClosed = onClosed
         self.item = item
+        print("init set info")
+        Task {
+        try await purchaseService.fetchProducts()
+        }
     }
     
     func didFinished() {
@@ -34,21 +42,13 @@ class SetInfoInteractor: SetInfoInteractorInput {
         onClosed()
     }
     
-    func purchaseItem(productId: String, didFinished: @escaping (Bool) -> Void) {
-        let block: (Bool) -> Void = { [weak self] result in
-            didFinished(result)
+    func purchaseItem(productId: String) {
+        Task {
+            try await purchaseService.purchaseProduct(productId: productId)
         }
-            purchaseService.purchaseProduct(productId: productId, didPurchaseFinished: block)
-        }
-    
-    func purchasePremium(for period: productIDs, didFinished: @escaping (Bool) -> Void) {
-        let block: (Bool) -> Void = {[weak self] result in
-            didFinished(result)
-        }
-        purchaseService.purchasePremium(productId: period.rawValue, didPurchaseFinished: block)
     }
-    
 }
+
 
 // MARK: Private
 extension SetInfoInteractor {

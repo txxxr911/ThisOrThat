@@ -32,12 +32,12 @@ extension SetInfoPresenter: SetInfoViewOutput {
     }
     
     func purchaseSetButton(item: CardSet) {
-  
+        interactor.purchaseItem(productId: item.id)
     }
     
-    func purchasePremium(for period: productIDs) {
-        
-    }
+//    func purchasePremium(for period: productIDs) {
+//        
+//    }
     
     func viewDidLoad() {
         view?.set()

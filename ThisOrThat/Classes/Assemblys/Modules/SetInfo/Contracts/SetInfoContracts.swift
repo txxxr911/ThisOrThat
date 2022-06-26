@@ -28,7 +28,7 @@ protocol SetInfoViewOutput: class {
     func viewDidLoad()
     var item: CardSet { get }
     func purchaseSetButton(item: CardSet)
-    func purchasePremium(for period: productIDs)
+    //func purchasePremium(for period: productIDs)
     
 
 }
@@ -38,8 +38,8 @@ protocol SetInfoInteractorInput {
     var item: CardSet { get }
     func didFinished()
     func didClosed()
-    func purchaseItem(productId: String, didFinished: @escaping (Bool) -> Void)
-    //func sendSelectedSet() 
+    func purchaseItem(productId: String)
+    func sendSelectedSet()
 }
 
 // Router

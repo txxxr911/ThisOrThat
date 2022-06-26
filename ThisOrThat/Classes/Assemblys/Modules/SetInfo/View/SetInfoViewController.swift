@@ -27,10 +27,11 @@ class SetInfoViewController: UIViewController, SetInfoViewInput {
     
     
     @objc func didTapBuySetButton() {
-        
+        print("Buy set button pressed")
+        output.purchaseSetButton(item: output.item)
     }
     @objc func didTapPremiumOnWeekButton() {
-        
+        print("ahaahha")
     }
     @objc func didTapPremiumOnMonthButton() {
         
@@ -42,6 +43,7 @@ class SetInfoViewController: UIViewController, SetInfoViewInput {
     override func viewDidLoad() {
         super.viewDidLoad()
         layout()
+        bind()
         output.viewDidLoad()
     }
 }

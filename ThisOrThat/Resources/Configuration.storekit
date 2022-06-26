@@ -1,0 +1,63 @@
+{
+  "identifier" : "A0C28B7E",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "4D6CBB1D",
+      "localizations" : [
+        {
+          "description" : "Набор кино",
+          "displayName" : "Набор \"Кино\"",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.artemtishchenko.thisorthat.cinema",
+      "referenceName" : "CinemaSet",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "A2F2E081",
+      "localizations" : [
+        {
+          "description" : "Набор ХХХ",
+          "displayName" : "Набор ХХХ",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.artemtishchenko.thisorthat.xxx",
+      "referenceName" : "xxxSet",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "B646F026",
+      "localizations" : [
+        {
+          "description" : "Школьнай набор",
+          "displayName" : "Школьный набор",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.artemtishchenko.thisorthat.school",
+      "referenceName" : "schoolSet",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 1,
+    "minor" : 2
+  }
+}

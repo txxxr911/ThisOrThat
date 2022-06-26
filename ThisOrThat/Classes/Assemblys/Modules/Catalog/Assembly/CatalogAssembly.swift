@@ -16,11 +16,11 @@ class CatalogAssembly: Assembly {
         let view = CatalogViewController.controllerFromStoryboard("Catalog")
         
         // Services
-        
+        let purchaseService = container.resolve(PurchaseServiceAssembly.self).build()
         let setDataService = container.resolve(SetDataServiceAssembly.self).build()
         
         // Interactor
-        let interactor = CatalogInteractor(setDataService: setDataService)
+        let interactor = CatalogInteractor(purchaseService: purchaseService, setDataService: setDataService)
         
         // Router
         let router = CatalogRouter(coordinator: coordinator)

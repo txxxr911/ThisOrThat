@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		370B84D4281190D600609282 /* MainViewControllerBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370B84D3281190D600609282 /* MainViewControllerBindings.swift */; };
 		370B84D6281193A500609282 /* MainViewControllerLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370B84D5281193A500609282 /* MainViewControllerLayout.swift */; };
+		3718EA29286332DA00E68B4B /* Configuration.storekit in Resources */ = {isa = PBXBuildFile; fileRef = 3718EA28286332DA00E68B4B /* Configuration.storekit */; };
 		3730AA712826FBC1009950B2 /* ResultsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3730AA702826FBC1009950B2 /* ResultsCell.swift */; };
 		3730AA732826FBD2009950B2 /* ResultsBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3730AA722826FBD2009950B2 /* ResultsBindings.swift */; };
 		3730AA752826FBE0009950B2 /* ResultsLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3730AA742826FBE0009950B2 /* ResultsLayout.swift */; };
@@ -216,6 +217,7 @@
 		12E76937F450917480E1025B /* Pods-ThisOrThat-ThisOrThatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThisOrThat-ThisOrThatUITests.debug.xcconfig"; path = "Target Support Files/Pods-ThisOrThat-ThisOrThatUITests/Pods-ThisOrThat-ThisOrThatUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		370B84D3281190D600609282 /* MainViewControllerBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewControllerBindings.swift; sourceTree = "<group>"; };
 		370B84D5281193A500609282 /* MainViewControllerLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewControllerLayout.swift; sourceTree = "<group>"; };
+		3718EA28286332DA00E68B4B /* Configuration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Configuration.storekit; sourceTree = "<group>"; };
 		3730AA702826FBC1009950B2 /* ResultsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsCell.swift; sourceTree = "<group>"; };
 		3730AA722826FBD2009950B2 /* ResultsBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsBindings.swift; sourceTree = "<group>"; };
 		3730AA742826FBE0009950B2 /* ResultsLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsLayout.swift; sourceTree = "<group>"; };
@@ -483,7 +485,6 @@
 				3746AD24280B1BAD003439DF /* Constants */,
 				3746AD27280B1BAD003439DF /* Extensions */,
 				3746AD5A280B1BAD003439DF /* Library */,
-				3746AD6A280B1BAD003439DF /* Utils */,
 				3746AD72280B1BAD003439DF /* Network */,
 				3746AD7B280B1BAD003439DF /* Themes */,
 			);
@@ -919,6 +920,7 @@
 		3746AD7B280B1BAD003439DF /* Themes */ = {
 			isa = PBXGroup;
 			children = (
+				3746AD6A280B1BAD003439DF /* Utils */,
 				3746AD7C280B1BAD003439DF /* Theme.swift */,
 			);
 			path = Themes;
@@ -931,6 +933,7 @@
 				37F79138282FA9AA00FE3C2B /* questions.json */,
 				37887380280DEC6900E4BF7F /* Fonts */,
 				3746AD82280B1BAD003439DF /* Assets.xcassets */,
+				3718EA28286332DA00E68B4B /* Configuration.storekit */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -1723,6 +1726,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3788738D280DED6B00E4BF7F /* YanoneKaffeesatz.ttf in Resources */,
+				3718EA29286332DA00E68B4B /* Configuration.storekit in Resources */,
 				3746AE1A280B1CE2003439DF /* Catalog.storyboard in Resources */,
 				3746AE32280B1D96003439DF /* Results.storyboard in Resources */,
 				3746AE0C280B1CE2003439DF /* Rules.storyboard in Resources */,

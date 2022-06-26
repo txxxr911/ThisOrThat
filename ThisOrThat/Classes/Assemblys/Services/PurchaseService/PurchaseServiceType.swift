@@ -10,10 +10,12 @@ import Foundation
 import StoreKit
 
 protocol PurchaseServiceType {
-    func restoreTransactions(didRestoreFinished: (() -> Void)?)
-    func getAllProducts() -> [SKProduct]
-    func isHaveInAppPurchases() -> Bool
-    func purchaseProduct(productId: String, didPurchaseFinished: ((Bool) -> Void)?)
-    func purchasePremium(productId: String, didPurchaseFinished: ((Bool) -> Void)?)
-    func requestProducts(didRequestProductsFinished: (() -> Void)?)
+    
+    var products: [Product] {get set}
+    var purchasedIds: [String] {get set}
+    
+    func isHaveActiveSubscribe() async throws -> Bool
+    func restoreSubscribe() async throws
+    func purchaseProduct(productId: String) async throws
+    func fetchProducts() async throws -> [Product]
 }

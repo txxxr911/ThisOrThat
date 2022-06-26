@@ -9,203 +9,116 @@
 import Foundation
 import StoreKit
 
-class PurchaseService: NSObject, SKProductsRequestDelegate, SKPaymentTransactionObserver, PurchaseServiceType {
-
-    var request: SKProductsRequest!
+class PurchaseService: NSObject, ObservableObject, PurchaseServiceType {
     
-    private var didPurchaseFinished: ((Bool)-> Void)?
-    private var didRequestProductsFinished: (()-> Void)?
-    private var items: [SKProduct] = []
+    var productIDs: Set<String> = ["com.artemtishchenko.thisorthat.cinema", "com.artemtishchenko.thisorthat.xxx", "com.artemtishchenko.thisorthat.school", "com.artemtishchenko.thisOrThat.subscribe1week", "com.artemtishchenko.thisOrThat.subscribe1Month", "com.artemtishchenko.thisOrThat.subscribeForever"]
+    
+        internal var products: [Product] = []
+        public var purchasedIds: [String] = []
+    
     
     override init() {
         super.init()
-        SKPaymentQueue.default().add(self)
-        requestProducts(didRequestProductsFinished: nil)
-    }
-    
-    func productsRequest(_ request: SKProductsRequest, didReceive response: SKProductsResponse) {
-        items.removeAll()
-        
-        for item in response.products {
-            items.append(item)
-        }
-        
-        didRequestProductsFinished?()
-        didRequestProductsFinished = nil
-    }
-    
-    func paymentQueue(_ queue: SKPaymentQueue, updatedTransactions transactions: [SKPaymentTransaction]) {
-        for transaction in SKPaymentQueue.default().transactions {
-            guard
-                transaction.transactionState != .purchasing,
-                transaction.transactionState != .deferred
-            else {
-                //Optionally provide user feedback for pending or processing transactions
-                return
-            }
-            //Transaction can now be safely finished
-            SKPaymentQueue.default().finishTransaction(transaction)
-            if transaction.transactionState != .failed {
-                UserDefaults.standard.setValue(true, forKey: transaction.payment.productIdentifier)
-            }
-            
-            if transaction.transactionState == .restored {
-                UserDefaults.standard.setValue(transaction.isActive, forKey: transaction.payment.productIdentifier)
-            }
-            
-        }
-        let finishedTransactions = transactions.filter { $0.transactionState == .purchased}
-        let isFinished = finishedTransactions.count > 0
-        didPurchaseFinished?(isFinished)
-        didPurchaseFinished = nil
-    }
-    
-    func restoreTransactions(didRestoreFinished: (() -> Void)?) {
-        DispatchQueue.global().asyncAfter(deadline: .now()+2) {
-            didRestoreFinished?()
-        }
-    }
-    
-    func getAllProducts() -> [SKProduct] {
-        items
-    }
-    
-    func isHaveInAppPurchases() -> Bool {
-        items
-            .filter {
-                UserDefaults.standard.value(forKey: $0.productIdentifier) as? Bool == true
-            }
-            .count > 0
-    }
-    
-    func request(_ request: SKRequest, didFailWithError error: Error) {
-        print("Request did fail: \(error)")
-    }
-    
-    func purchaseProduct(productId: String, didPurchaseFinished: ((Bool) -> Void)?) {
-        
-        self.didPurchaseFinished = didPurchaseFinished
-        let product = items.first { $0.productIdentifier == productId }
-        guard product != nil else { return }
-        self.purchaseProduct(product: product!)
+//        Task {
+//            try await fetchProducts()
+//        }
     }
     
     
-    func purchaseProduct(product: SKProduct) {
-        if SKPaymentQueue.canMakePayments() {
-            let payment = SKPayment(product: product)
-            SKPaymentQueue.default().add(payment)
-        } else {
-            print("User can't make payment.")
-        }
-    }
-    
-    func purchasePremium(product: SKProduct) {
-        if SKPaymentQueue.canMakePayments() {
-            let payment = SKPayment(product: product)
-            SKPaymentQueue.default().add(payment)
-        } else {
-            print("User can't make payment.")
-        }
-    }
-    
-    func purchasePremium(productId: String, didPurchaseFinished: ((Bool) -> Void)?) {
-        self.didPurchaseFinished = didPurchaseFinished
-        let product = items.first {$0.productIdentifier == productId}
-        guard product != nil else { return }
-        self.purchasePremium(product: product!)
-    }
     
     
-    func requestStart() {
-        
-        let products = productIDs.allCases
-        let ids = products.map { $0.rawValue }
-        let request = SKProductsRequest(productIdentifiers: Set(ids))
-        request.delegate = self
-        
-        request.start()
-    }
-    
-    func requestProducts(didRequestProductsFinished: (() -> Void)?) {
-        self.didRequestProductsFinished = didRequestProductsFinished
-        requestStart()
-    }
-    
-    
-    private func restoreCompletedTransactions() {
-        SKPaymentQueue.default().restoreCompletedTransactions()
-    }
-}
+    func purchaseProduct(productId: String) async throws  {
+        let product = products.first {$0.id == productId}
+        do {
+            let result = try await product?.purchase()
+            for await result in Transaction.updates {
+                switch result {
 
-enum productIDs: String, CaseIterable {
-    case subscribeWeek = "com.artemtishchenko.thisOrThat.subscribe1week"
-    case subscribeMonth = "com.artemtishchenko.thisOrThat.subscribe1Month"
-    case subscribeForever = "com.artemtishchenko.thisOrThat.subscribeForever"
-}
+                    case .verified(let transaction):
+                        self.purchasedIds.append(transaction.productID)
+                        print(transaction.productID)
+                        
+                    case .unverified(_):
+                        break;
+                    }
+            }
+//            switch result {
+//
+//            case .success(let verification):
+//                print("Purchase is successfull")
+//                switch verification {
+//
+//                case .verified(let transaction):
+//                    self.purchasedIds.append(transaction.productID)
+//                    print(transaction.productID)
+//
+//                case .unverified(_):
+//                    break;
+//                }
+//            case .userCancelled:
+//                return
+//                break;
+//
+//            case .pending:
+//                return
+//                break;
+//
+//            default:
+//                break;
+//                }
+        }
+        catch {
+            print(error)
+        }
+    }
+    
+    func fetchProducts() async throws -> [Product] {
+        do {
+        let products = try await Product.products(for: productIDs)
+        DispatchQueue.main.async {
+            self.products = products
+            }
+            for item in self.products {
+                if (try await isPurchased(productId: item.id)!) {
+                    print("append")
+                    purchasedIds.append(item.id)
+                }
+                
+            }
+        }
+        catch {
+            print(error)
+        }
+        print ("I fetched products and now buyed card sets count is: \(purchasedIds.count)")
+        return products
 
-extension SKPaymentTransaction {
-    var isActive : Bool {
-        if payment.productIdentifier == productIDs.subscribeWeek.rawValue {
-            guard let date = transactionDate else {
-                return false
-            }
-            let deltaSeconds = date.distance(to: Date())
-            let deltaHours = deltaSeconds / 60 / 60
-            let hoursIn1Week: Double = 7 * 24
-            
-            if (deltaHours < hoursIn1Week) {
-                return true
-            }
-            
+    }
+    
+    func isPurchased(productId: String) async throws -> Bool? {
+        guard let result = await Transaction.latest(for: productId) else {
             return false
         }
-        
-        if payment.productIdentifier == productIDs.subscribeMonth.rawValue {
-            guard let date = transactionDate else {
-                return false
-            }
-            let deltaSeconds = date.distance(to: Date())
-            let deltaHours = deltaSeconds / 60 / 60
-            let hoursIn1Year: Double = 7 * 365
+        switch result {
+        case .unverified(_):
+            print("The purchase isn't verified")
+            break
             
-            if (deltaHours < hoursIn1Year) {
-                return true
-            }
-            
-            return false
+        case .verified(let transaction):
+            print("Transaction verified")
+            await transaction.finish()
+            return transaction.revocationDate == nil && !transaction.isUpgraded
         }
         
-        if payment.productIdentifier == productIDs.subscribeMonth.rawValue {
-            guard let date = transactionDate else {
-                return false
-            }
-            let deltaSeconds = date.distance(to: Date())
-            let deltaHours = deltaSeconds / 60 / 60
-            let hoursIn1Month: Double = 7 * 31
-            
-            if (deltaHours < hoursIn1Month) {
-                return true
-            }
-            
-            return false
-        }
-        
-        return true
+        return nil
+    }
+    func isHaveActiveSubscribe() async throws -> Bool {
+         true
     }
     
-}
-
-extension SKProduct {
-    
-    var localizedPrice: String {
-        let formatter = NumberFormatter()
-        formatter.numberStyle = .currency
-        if priceLocale.languageCode?.lowercased().contains("ru") ?? false {
-            return Int(truncating: price).toString() + " ₽"
-        }
-        formatter.locale = priceLocale
-        return formatter.string(from: price)!
+    func restoreSubscribe() async throws {
+        
     }
-
 }
+
+    
+

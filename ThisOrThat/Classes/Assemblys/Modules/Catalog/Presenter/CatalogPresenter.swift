@@ -20,6 +20,8 @@ class CatalogPresenter: BasePresenter<CatalogInteractorInput, CatalogRouterProto
         
         return data
     }
+    
+    var purchasedIds: [String] {interactor.purchasedSets}
 }
 
 // MARK: Private
@@ -50,6 +52,10 @@ extension CatalogPresenter: CatalogViewOutput {
     }
     
     func viewDidLoad() {
+        print ("Buyed sets")
+        for item in self.purchasedIds {
+            print(item)
+        }
     }
     
     
