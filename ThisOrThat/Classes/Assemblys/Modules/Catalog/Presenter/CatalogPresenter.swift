@@ -21,7 +21,7 @@ class CatalogPresenter: BasePresenter<CatalogInteractorInput, CatalogRouterProto
         return data
     }
     
-    var purchasedIds: [String] {interactor.purchasedSets}
+    var purchasedIds: [String] = []
 }
 
 // MARK: Private

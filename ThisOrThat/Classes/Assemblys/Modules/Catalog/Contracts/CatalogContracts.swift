@@ -34,7 +34,7 @@ protocol CatalogViewOutput: class {
 // Interactor
 protocol CatalogInteractorInput {
     var allSets: [CardSet] { get }
-    var purchasedSets: [String] { get }
+    var includedSets: [String] { get set}
     
 }
 

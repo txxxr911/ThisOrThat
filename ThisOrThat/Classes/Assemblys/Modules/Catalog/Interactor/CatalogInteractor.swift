@@ -10,28 +10,38 @@ import Foundation
 import StoreKit
 
 class CatalogInteractor: CatalogInteractorInput {
-    
-    var purchasedSets: [String] {purchaseService.purchasedIds}
-    var allSets: [CardSet] {setDataService.getAll()}
-    
-    
-    var includedSets: [String] = ["demo"]
-    
-    
+ 
     let purchaseService: PurchaseServiceType
     let setDataService: SetDataServiceType
+    
+    
+    var allSets: [CardSet] {setDataService.getAll()}
+    var includedSets: [String] = []
+    
     
     init(purchaseService: PurchaseServiceType, setDataService: SetDataServiceType) {
         self.purchaseService = purchaseService
         self.setDataService = setDataService
         Task {
-            try await purchaseService.fetchProducts()
+           await fetchProducts()
         }
-        
-       
     }
     
-    
+    func fetchProducts() async {
+        do {
+           let products = try await purchaseService.fetchProducts()
+            for item in products {
+                if (try await purchaseService.isPurchased(product: item)) {
+                    includedSets.append(item.id)
+                }
+            }
+            print("initial \(includedSets.count)")
+        }
+        
+        catch {
+            print(error)
+        }
+    }
     
 }
 

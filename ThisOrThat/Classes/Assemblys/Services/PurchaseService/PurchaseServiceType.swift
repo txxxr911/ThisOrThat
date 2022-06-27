@@ -11,11 +11,11 @@ import StoreKit
 
 protocol PurchaseServiceType {
     
-    var products: [Product] {get set}
-    var purchasedIds: [String] {get set}
-    
     func isHaveActiveSubscribe() async throws -> Bool
     func restoreSubscribe() async throws
+    func isPurchased(product: Product) async throws -> Bool
     func purchaseProduct(productId: String) async throws
     func fetchProducts() async throws -> [Product]
+    var products: [Product] {get set}
+    var purchasedIds: [String] {get set}
 }
